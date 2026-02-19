@@ -1,0 +1,301 @@
+/* 1. EXTERNAL FONTS (Loading high-quality options) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Sans+3:wght@400;700&family=Public+Sans:wght@400;700&display=swap');
+
+/* 2. GLOBAL VARIABLES (THE FONT PICKER + THEME-SAFE COLORS) */
+:root {
+  /** OPTION A: THE "MODERN TECH" LOOK (Inter)
+  --site-font: 'Inter', sans-serif; **/
+
+  /** OPTION B: THE "MHH CLASSIC" LOOK (Helvetica/Arial) **/
+  --site-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /** OPTION C: THE "GOVERNMENT/OFFICIAL" LOOK (Public Sans) **/
+  /* --site-font: 'Public Sans', sans-serif; */
+
+  --mhh-red: #d62d20;
+  --mhh-red-dark: #a52218;
+
+  /* Single source of truth for text colors */
+  --mhh-text: #000;
+  --mhh-heading: #000;
+}
+
+/* Dark mode: switch to Bootstrap theme colors (Litera/Darkly compatible) */
+:root[data-bs-theme="dark"],
+body[data-bs-theme="dark"],
+html.quarto-dark,
+body.quarto-dark {
+  --mhh-text: var(--bs-body-color);
+  --mhh-heading: var(--bs-body-color);
+}
+
+/* 3. UNIVERSAL FONT (Modified to skip icons) */
+html, body, p, .about-contents, .team-grid {
+  font-family: var(--site-font) !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Theme-safe base text color */
+body, .content, main, .quarto-content {
+  color: var(--mhh-text) !important;
+}
+
+/* Specifically target the text inside cards but leave system icons alone */
+.team-card, .team-text, .team-text strong {
+  font-family: var(--site-font) !important;
+}
+
+/* 4. HEADERS (single definition; theme-safe color) */
+h1, h2, h3, .about-contents h2,
+.quarto-title-block .title, h1.title {
+  font-family: var(--site-font) !important;
+  text-transform: none !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.01em !important;
+  color: var(--mhh-heading) !important;
+}
+
+/* This allows the Quarto "link symbol" to use its own special font */
+a.anchorjs-link {
+  font-family: anchorjs-icons !important;
+}
+
+/* h2 style (kept from your design) */
+h2 {
+  font-size: 1.75rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+  margin-top: 2rem;
+}
+
+/* 5. TEAM GRID & CARDS */
+.team-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.75rem;
+  align-items: start;
+}
+
+.team-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: white;
+  min-height: 170px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.team-card-link {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+}
+
+.team-card-link:hover { text-decoration: none !important; }
+
+.team-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex: 0 0 120px;
+}
+
+.team-text strong {
+  display: block;
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.2;
+  margin-bottom: 0.25rem;
+}
+
+.team-email {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--mhh-red);
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.team-card-link:hover .team-email {
+  text-decoration: underline;
+  color: var(--mhh-red-dark);
+}
+
+/* Team text colors: theme-safe (no forced black) */
+.team-card-link .team-text strong {
+  color: inherit !important;
+  opacity: 1 !important;
+}
+
+.team-text {
+  color: inherit !important;
+}
+
+/* 6. SOLANA BIOGRAPHY (JUSTIFIED) */
+.quarto-about-solana .about-contents {
+  text-align: justify !important;
+  text-align-last: left;
+  margin-left: 0 !important;
+  max-width: 100%;
+}
+
+/* Inline links in bio (Orange, but not buttons) */
+.about-contents a:not(.btn):not(.about-link) {
+  color: var(--mhh-red) !important;
+  text-decoration: underline !important;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.about-contents a:not(.btn):not(.about-link):hover {
+  color: var(--mhh-red-dark) !important;
+  text-decoration: none !important;
+}
+
+/* 7. BUTTONS & SIDEBAR ICONS */
+.about-links .about-link {
+  color: var(--mhh-red) !important;
+  border: 1px solid var(--mhh-red) !important;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.about-links .about-link:hover {
+  background-color: var(--mhh-red) !important;
+  color: white !important;
+}
+
+.btn-orange {
+  color: var(--mhh-red) !important;
+  border-color: var(--mhh-red) !important;
+  background-color: transparent;
+}
+
+.btn-orange:hover {
+  background-color: var(--mhh-red) !important;
+  color: white !important;
+}
+
+/* 8. MISC (Secret Link & Navbar) */
+.navbar-brand img { max-height: 80px; }
+
+.secret-dot:hover {
+  color: var(--mhh-red) !important;
+  cursor: text;
+}
+
+.secret-link {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: default;
+}
+
+/* Protects phone numbers from bots */
+.obfuscate-tel {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  display: inline-block;
+}
+
+/* Makes text bold when you actually order it (theme-safe color) */
+strong, b {
+  font-weight: 700 !important;
+  color: inherit !important;
+}
+
+/* Justifies text at will when wrapped inside ::: */
+.justified p {
+  text-align: justify;
+}
+
+/* styles for the news list in index (next 3 items) */
+.news-home .listing-date {
+  font-weight: 700;
+  margin-right: 1rem;
+  white-space: nowrap;
+}
+
+.news-home ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.news-home li {
+  margin-bottom: 0.35rem;
+}
+
+
+/* ===== Team cards: dark mode fix ONLY ===== */
+:root[data-bs-theme="dark"] .team-card,
+body[data-bs-theme="dark"] .team-card,
+html.quarto-dark .team-card,
+body.quarto-dark .team-card {
+  background: rgba(255,255,255,0.06) !important;     /* dark background */
+  color: var(--bs-body-color) !important;       /* light text */
+  border-color: var(--bs-border-color) !important;
+  box-shadow: none !important;                  /* optional, looks cleaner in dark */
+}
+
+/* Make sure text inside the card inherits correctly */
+:root[data-bs-theme="dark"] .team-text,
+body[data-bs-theme="dark"] .team-text,
+html.quarto-dark .team-text,
+body.quarto-dark .team-text {
+  color: inherit !important;
+}
+
+/* Keep the email accent readable in dark mode */
+:root[data-bs-theme="dark"] .team-email,
+body[data-bs-theme="dark"] .team-email,
+html.quarto-dark .team-email,
+body.quarto-dark .team-email {
+  color: var(--mhh-red) !important;
+}
+/* ===== END Team cards dark mode fix ===== */
+
+/* Team Card button */
+.team-email-btn {
+  display: inline-block;
+  margin-top: 0.6rem;
+  padding: 0.3rem 0.55rem;
+  border: 1px solid var(--mhh-red);
+  border-radius: 6px;
+  color: var(--mhh-red) !important;
+  text-decoration: none !important;
+
+  font-size: 0.9rem;      /* slightly smaller */
+  font-weight: 500;       /* not bold */
+}
+
+.team-email-btn:hover {
+  background: var(--mhh-red);
+  color: white !important;
+}
+
+.team-name-link {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-weight: inherit !important;   /* <-- important */
+}
+
+.team-name-link:hover {
+  text-decoration: underline !important;
+}
+
+/* Only inline links inside About page content */
+.about-page #quarto-document-content a:not(.btn):not(.about-link):not(.team-email-btn) {
+  color: var(--mhh-red) !important;
+  text-decoration: underline;
+}
+
+.about-page #quarto-document-content a:not(.btn):not(.about-link):not(.team-email-btn):hover {
+  color: var(--mhh-red-dark) !important;
+  text-decoration: none;
+}

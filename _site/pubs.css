@@ -1,0 +1,43 @@
+/* Publication entry spacing */
+.pub-item {
+  margin: 2rem 0;
+}
+
+/* Title row styling */
+.pub-title-row {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Clickable title link */
+.pub-title {
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+
+.pub-title:hover {
+  text-decoration: underline;
+}
+
+/* Authors + venue/meta lines */
+/* Authors + venue/meta lines (theme-aware) */
+.pub-authors,
+.pub-meta {
+  color: var(--bs-body-color);
+  opacity: 0.85;          /* slightly softer than titles */
+  margin-top: 0.25rem;
+}
+
+/* Highlight lab members (bold only, no font changes) */
+.pub-authors .lab-author {
+  font-weight: 700 !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-style: inherit !important;
+  font-variant: inherit !important;
+  letter-spacing: inherit !important;
+  line-height: inherit !important;
+  color: inherit !important;
+}
