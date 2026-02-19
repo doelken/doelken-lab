@@ -44,6 +44,17 @@ Then PR to main. Standard operating practices are a must.
 5. Stage and push edits in develop or feature branch.
 6. If everything looks good, ask for a PR to this repo.
 ---
+## Maintainers:
+Created and Currently maintained by:
+Santiago Alvarez-Cardenas (Jan 2026 - )
 
+---
+## License
+
+All rights reserved.
+
+This repository contains proprietary material belonging to the Dölken Lab.
+No part of this code may be reproduced, distributed, or modified without explicit permission.
+---
 The END
 -----------
