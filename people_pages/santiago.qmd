@@ -1,0 +1,31 @@
+---
+title: "Santiago Alvarez-Cardenas, MSc"
+page-layout: full
+image: "../img/people/santiago.png"
+about:
+  template: solana
+  links:
+    - icon: envelope
+      text: E-mail
+      href: mailto:AlvarezCardenas.Santiago@mh-hannover.de
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=zx5SI18AAAAJ&hl=en
+    - icon: info-circle # ORCID doesn't have a native icon in many sets, this works well
+      text: ORCID
+      href: https://orcid.org/0000-0002-0456-7712
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/santiagoalcar/
+    - icon: github
+      text: GitHub
+      href: https://github.com/santiagoalcar
+---
+
+As a scientist with a passion for understanding the interactions between pathogens and their hosts at the molecular level, I have developed a strong interest in virus-induced manipulation of gene regulation. During my master's studies in biomedicine in Strasbourg, Luxembourg, and Mainz, I focused on the gut-liver axis, immune signaling, and transcriptional responses in fibrosis, gaining experience in RNA biology, multi-omics data analysis, and inflammation.
+
+In Lars' group, I can extend this fascination to the world of herpesviruses, which have developed remarkable strategies to survive in the human body for life. In my doctoral thesis, I am investigating pervasive transcription in human cytomegalovirus infections and exploring how viral genomes recruit and utilize the host's RNA polymerase II and how viral factors switch transcription from unproductive to productive programs. By combining virological and transcriptomic approaches, I aim to contribute to a deeper understanding of how HCMV triggers infections and evades immune surveillance.
+
+Outside the lab, I enjoy traveling, trying new foods, hiking in nature, watching Formula 1 races, and playing tennis. I am also very interested in world history and different cultures.
+
+[← Back to Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}

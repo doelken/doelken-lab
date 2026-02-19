@@ -1,0 +1,12 @@
+---
+title: "Dölken Lab is now ONline"
+date: 2026-02-10
+categories: [Updates]
+---
+
+The new website for the group is now ON. Proudly created in-house by one of our students.
+
+![Overview of proudful moment (The camera adds at least 5 kgs).<br> Thanks to Yan for the pic.](../img/website_done.jpeg)
+
+[← Return to News Overview](../news.qmd){.btn .btn-orange .btn-sm role="button"}
+[← Return to Homepage](../index.qmd){.btn .btn-orange .btn-sm role="button"}

@@ -1,0 +1,24 @@
+---
+title: "Prof. Dr. med. Lars Dölken"
+page-layout: full
+image: "../img/people/pr_doelken.jpg"
+about:
+  template: solana
+  links:
+    - icon: envelope
+      text: E-mail
+      href: mailto:Doelken.Lars@mh-hannover.de
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.de/citations?user=Qr77IyIAAAAJ&hl=en
+    - icon: info-circle # ORCID doesn't have a native icon in many sets, this works well
+      text: ORCID
+      href: https://orcid.org/0000-0002-4651-3544
+    - icon: phone
+      text: "Phone"
+      href: tel:+495115326736
+---
+
+Prof. Dölken studied Medicine at the Ernst-Moritz-Arndt University of Greifswald and the University of Otago, Dunedin, New Zealand. From 2005-2011, he specialized in microbiology, virology and infection epidemiology at the Max-von-Pettenkofer Institute in Munich. During this time, he established a research focus on RNA biology of herpesvirus infection, developing new tools for high-resolution gene expression profiling and studying the functional role of herpesvirus small noncoding RNAs. In 2011, he moved to the University of Cambridge, UK, as an MRC Clinical Scientist Fellow. In 2015, he was appointed chair of virology at the Julius-Maximilians-University of Würzburg. He obtained two consecutive ERC grants (2017: HERPES, 2022: DecipherHSV) to study viral manipulation of the host transcriptional machinery by HSV 1 during lytic infection and latency/reactivation. Since 2018, he has been the speaker of the DFG research unit FOR2830 (Advanced Concepts in the Cellular Immune Control of Cytomegalovirus). In April 2024, he was appointed chair of virology at the Institute of Virology at Hanover Medical School. Moreover, he received a Niedersachsen Professorship from [zukunft.niedersachsen](https://zukunft.niedersachsen.de/drei-professuren-fur-niedersachsen/).
+
+[← Back to Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}

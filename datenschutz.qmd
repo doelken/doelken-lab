@@ -1,0 +1,15 @@
+---
+title: "Privacy Policy (Datenschutzerklärung)"
+---
+
+### 1. General Information
+The operators of this website take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations (GDPR).
+
+### 2. Data Collection
+When you visit this website, certain technical data is automatically collected (e.g., IP address, browser type, time of access). This is handled by our hosting provider and is necessary for the technical security of the site.
+
+### 3. Google Web Fonts
+This site uses web fonts provided by Google for uniform representation of fonts. When you open a page, your browser loads the required web fonts into your browser cache to display texts and fonts correctly. For this purpose, your browser establishes a direct connection to Google servers.
+
+### 4. Your Rights
+You have the right to receive information about the origin, recipient, and purpose of your stored personal data at any time free of charge. You also have a right to request the correction or deletion of this data.

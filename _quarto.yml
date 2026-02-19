@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  favicon: "img/favicon/favicon.ico"
+  title: ""
+  reader-mode: true
+  navbar:
+    logo: "img/Logo_MHH_rot-mit_virologie_group.png"
+    left:
+      - text: "Research" 
+        href: research.qmd
+      - publications.qmd
+      - text: News 
+        href: news.qmd
+      - text: "Team" 
+        href: our_team.qmd
+      - about.qmd
+  page-footer:
+    left: "© 2026 AG Dölken"
+    center: 
+      - text: "Imprint"
+        href: impressum.qmd
+      - text: "Privacy"
+        href: datenschutz.qmd
+      - text: "Contact"
+        href: about.qmd#contact
+    right: "Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    email-obfuscation: javascript
+    theme:
+      light: litera
+      dark: darkly
+    mainfont: "Helvetica Neue, Helvetica, Arial, sans-serif"
+    header-font: "Helvetica Neue, Helvetica, Arial, sans-serif"
+    css: styles.css
+    toc: true
+
+editor: source
+

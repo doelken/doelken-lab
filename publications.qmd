@@ -1,0 +1,102 @@
+---
+title: Publications
+page-layout: full
+format:
+  html:
+    css: pubs.css
+---
+
+```{r reading_pubs_file}
+#| echo: false
+#| message: false
+#| warning: false
+
+source("publications/pubs_helpers.R")
+bib <- read_bib("publications/Website.bib")
+```
+
+
+```{r rendering_pubs}
+#| echo: false
+#| results: asis
+#| message: false
+#| warning: false
+
+years <- get_years(bib)
+
+for (yy in years) {
+  entries <- bib[which(vapply(bib, get_year, integer(1)) == yy)]
+  entries <- entries[!vapply(entries, has_excluded_author, logical(1))]
+  if (length(entries) == 0) next
+
+  cat(sprintf("\n\n## %d\n\n", yy))
+  cat('<div class="pub-year">\n')
+
+  for (e in entries) {
+    title <- clean_title(e$title)
+    link  <- best_link(e)
+    auth  <- highlight_authors(author_string(e))
+    venue <- get_venue(e)
+
+    title_html <- if (!is.null(link)) {
+      sprintf(
+        '<a class="pub-title" href="%s" target="_blank" rel="noopener">%s</a>',
+        link, title
+      )
+    } else {
+      sprintf('<span class="pub-title">%s</span>', title)
+    }
+
+    venue_html <- if (nzchar(venue)) {
+      sprintf('<span class="pub-venue"><em>%s</em>. %d</span>', venue, yy)
+    } else {
+      sprintf('<span class="pub-venue">%d</span>', yy)
+    }
+
+    cat('<div class="pub-item">\n')
+    cat(sprintf('  <div class="pub-title-row">%s</div>\n', title_html))
+    if (nzchar(auth)) cat(sprintf('  <div class="pub-authors">%s</div>\n', auth))
+    cat(sprintf('  <div class="pub-meta">%s</div>\n', venue_html))
+    cat("</div>\n\n")
+  }
+
+  cat("</div>\n")
+}
+```
+
+```{r callout_issues}
+#| echo: false
+#| results: asis
+#| message: false
+#| warning: false
+
+issues <- check_bib(bib)
+
+has_issues <- any(lengths(issues) > 0)
+
+if (has_issues) {
+  cat("::: {.callout-warning}\n")
+  cat("## BibTeX sanity check\n\n")
+
+  if (length(issues$missing_year)) {
+    cat("**Missing year:**\n\n")
+    cat(paste0("- `", issues$missing_year, "`\n", collapse = ""))
+    cat("\n")
+  }
+
+  if (length(issues$missing_title)) {
+    cat("**Missing title:**\n\n")
+    cat(paste0("- `", issues$missing_title, "`\n", collapse = ""))
+    cat("\n")
+  }
+
+  if (length(issues$missing_link)) {
+    cat("**No DOI/URL/arXiv link found (optional):**\n\n")
+    cat(paste0("- `", issues$missing_link, "`\n", collapse = ""))
+    cat("\n")
+  }
+
+  cat(":::\n")
+}
+```
+

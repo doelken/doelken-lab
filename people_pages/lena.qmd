@@ -1,0 +1,24 @@
+---
+title: "Lena Wolpert, MSc"
+page-layout: full
+image: "../img/people/lena.jpg"
+about:
+  template: solana
+  links:
+    - icon: envelope
+      text: E-mail
+      href: mailto:Wolpert.Lena@mh-hannover.de
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/
+    - icon: info-circle # ORCID doesn't have a native icon in many sets, this works well
+      text: ORCID
+      href: https://orcid.org/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/lena-wolpert-45b805296/
+---
+
+Short description/biography/hobbies of you.
+
+[← Back to Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}

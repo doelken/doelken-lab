@@ -1,0 +1,50 @@
+---
+title: "Welcome to the Dölken Lab at the MHH"
+toc: false
+page-layout: full
+engine: knitr
+listing:
+  - id: latest-news
+    type: table 
+    contents: news
+    max-items: 5
+    sort: "date desc"
+    fields: [date, title, categories]
+    date-format: full
+---
+
+::::::: columns
+:::: {.column width="60%"}
+::: justified
+## Systems and RNA Biology of Herpesvirus Infections
+
+The Dölken Lab at Hannover Medical School (MHH) explores the intricate co-evolution between herpesviruses and their hosts. While these large DNA viruses are significant human pathogens—causing everything from common cold sores to cancer—they also serve as powerful tools for uncovering fundamental principles of cell biology and immunology.
+
+### Beyond the Tip of the Iceberg
+
+Because herpesviruses interfere with complex cellular signaling networks, we employ a systems-level approach to resolve the full spectrum of viral regulation. Our research moves from single-cell to organismal levels, focusing on three core pillars:
+
+-   **Manipulating the Host Machinery:** We use innovative 4sU-tagging (metabolic labeling) to capture real-time changes in RNA synthesis and decay. This allows us to study how viruses like HSV-1 disrupt cellular processes, such as transcription termination, to evade host defenses.
+
+-   **Functional Genome Re-annotation:** By integrating RNA-seq and ribosome profiling (Ribo-seq), we have discovered that herpesvirus genomes are far more complex than previously thought. We are currently re-annotating these genomes to include hundreds of novel transcripts and small open reading frames (sORFs) that regulate viral adaptation.
+
+-   **Single-Cell Dynamics (scSLAM-seq):** To overcome the limitations of standard single-cell sequencing, we pioneered scSLAM-seq. By combining metabolic labeling with chemical conversion, we can differentiate between "new" and "old" RNA within a single cell. This "super-resolution" view allows us to decipher stochastic virus-host interactions during latency, reactivation, and productive infection.
+:::
+::::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+![In HSV-1-infected cells, ICP27 interacts with CPSF and induces the assembly of an aberrant 3′ processing complex. At viral PASs or host PASs that have GC-rich upstream sequences (UPS), ICP27 binds to these UPS sequences and promotes recruitment of CPSF, thereby activating mRNA 3′ processing. The transition of ICP27 between the CPSF-bound and UPS RNA-bound states is illustrated by a dotted line. From Wang *et al.*, Nat Comm, 2020](img/41467_2019_14109_Fig7_HTML.png)
+:::
+:::::::
+
+
+## Recent News
+
+::: {.news-home}
+::: {#latest-news}
+:::
+:::
+

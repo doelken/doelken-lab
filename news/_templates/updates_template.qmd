@@ -1,0 +1,13 @@
+---
+title: "updates_template (DO NOT USE AS IS)"
+date: yyyy-mm-dd
+categories: [Cat1; Cat2; Catetc]
+---
+
+Content of the file goes here.
+
+![and the picture footer goes here](here_goes_the_path.jpg)
+
+<!--Leave this part as is-->
+[← Return to News Overview](../news.qmd){.btn .btn-orange .btn-sm role="button"}
+[← Return to Homepage](../index.qmd){.btn .btn-orange .btn-sm role="button"}

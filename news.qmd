@@ -1,0 +1,15 @@
+---
+title: "News"
+page-layout: full
+listing:
+  contents: 
+    - "news/*"
+    - "!news/_templates/**"
+  sort: "date desc"
+  type: default
+  page-size: 20
+  fields: [date, title]
+  date-format: "MM/YY"
+---
+
+These are the latest updates from our group:
