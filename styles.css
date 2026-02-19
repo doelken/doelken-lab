@@ -299,10 +299,3 @@ body.quarto-dark .team-email {
   color: var(--mhh-red-dark) !important;
   text-decoration: none;
 }
-
-/* Only remove underline from Quarto section anchor icons */
-.anchorjs-link,
-.anchorjs-link:hover,
-.anchorjs-link:focus {
-  text-decoration: none !important;
-}
