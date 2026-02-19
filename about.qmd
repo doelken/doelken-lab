@@ -6,9 +6,28 @@ body-classes: about-page
 
 We are located at the [Hannover Medical School (MHH)](https://www.mhh.de/en/) at the [Institute of Virology](https://www.mhh.de/en/mhh-institutes/virology), Dölken Group [(AG Dölken)](https://www.mhh.de/virologie/forschung/doelken-lab).
 
-## Join us
+## Join our team
 
-If you are interested in joining the group for a Master’s thesis, MD project, PhD position, or postdoctoral research, feel free to get in touch by email. Please include a short description of your background and your research interests.
+If you are interested in joining the Dölken Lab for a Master's thesis, MD project, PhD position, or postdoctoral research, we welcome your application.
+
+We are looking for highly motivated and curious individuals with a strong interest in biomedical research. 
+
+Applicants should have a solid academic background relevant to the position and demonstrate a genuine enthusiasm for scientific research. Proficiency in English (written and spoken) is required, as English is the working language of the lab.
+
+We strongly encourage applications from candidates of all nationalities and backgrounds. We are committed to fostering an inclusive and diverse research environment.
+
+Please submit your application **exclusively** via the email address provided below and include the following:
+
+1. Email subject line: [Position applied for] – [Full Name]  
+   (e.g., "PhD Application – Jane Doe")
+2. A current CV (**PDF** format).
+3. A brief statement describing your academic background, research experience, and research interests.
+
+We aim to review applications and respond as promptly as possible.
+
+Applications that do not follow the above instructions will not be considered.
+
+[APPLY HERE](mailto:agdoelken@gmail.com){.btn .btn-orange .btn-sm role="button"} <br>
 
 ## Contact
 
