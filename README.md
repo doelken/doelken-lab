@@ -45,8 +45,5 @@ Then PR to main. Standard operating practices are a must.
 6. If everything looks good, ask for a PR to this repo.
 ---
 
------------
------------
 The END
------------
 -----------
