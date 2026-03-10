@@ -19,6 +19,11 @@ about:
       href: https://www.linkedin.com/in/katarzyna-s-62a39282/
 ---
 
-Short description/biography/hobbies of you.
+Professionally, I am a virologist and science enthusiast at heart. I’ve always enjoyed working in the lab; carefully planning experiments, performing them with an exclusive focus, and seeing ideas materialize when analyzing the data, a bit like doing magic, just for real. 
+
+My fascination for the complex world of viruses started in the lab of Prof. Judith White, University of Virginia, where as a Visiting Graduate Student, I investigated fusion of Ebola and Lassa viruses. For my PhD studies, I moved to Hannover, where I joined the group of Prof. Martin Messerle. My research focused on functional importance of M25 proteins in MCMV infection. Currently, my scientific interests lie in utilizing single-cell resolution techniques to define and validate determinants of infection outcome upon HCMV and MCMV infections. 
+
+In personal life, I am a mother of four boys, love traveling, biking, trying new recipes, and solving time-travel or murder mysteries.
+
 
 [← Back to Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}

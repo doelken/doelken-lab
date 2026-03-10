@@ -1,10 +1,10 @@
 ---
-title: "About"
+title: "About us"
 page-layout: full
 body-classes: about-page
 ---
 
-We are located at the [Hannover Medical School (MHH)](https://www.mhh.de/en/) at the [Institute of Virology](https://www.mhh.de/en/mhh-institutes/virology), Dölken Group [(AG Dölken)](https://www.mhh.de/virologie/forschung/doelken-lab).
+We are located in building J6 of [Hannover Medical School (MHH)](https://www.mhh.de/en/) at the [Institute of Virology](https://www.mhh.de/en/mhh-institutes/virology), Dölken Group [(AG Dölken)](https://www.mhh.de/virologie/forschung/doelken-lab).
 
 ## Join us
 
@@ -29,7 +29,7 @@ If you are interested in joining the group for a Master’s thesis, MD project, 
 ::: {.column width="45%"}
 ## Director
 
-Prof. Dr. med. Lars Dölken <br> Director Institute of Virology <br> [Email Lars](mailto:doelken.lars@mh-hannover.de?subject=Contact%20from%20Doelken%20Group%20Website){.btn .btn-orange .btn-sm role="button"} <br> Secretary Phone: [6376 235 115 94+]{.obfuscate-tel}
+Prof. Dr. med. Lars Dölken <br> Director of the Institute of Virology <br> [Email Lars](mailto:doelken.lars@mh-hannover.de?subject=Contact%20from%20Doelken%20Group%20Website){.btn .btn-orange .btn-sm role="button"} <br> Secretary Phone: [6376 235 115 94+]{.obfuscate-tel}
 
 ![Prof. Dr. med. Lars Dölken](img/pr_doelken.jpg)
 :::
@@ -41,11 +41,11 @@ Prof. Dr. med. Lars Dölken <br> Director Institute of Virology <br> [Email Lars
 
 ### Arriving by Public Transport
 
-The MHH campus is easily reached via the tram (line 4, direction Roderbruch) from the city centre (Kröpcke) which is a five minute walk from Hannover main station (Hauptbahnhof, Hbf). You can also take the S-Bahn to the "Bahnhof Karl-Wiechert-Allee" station and switch to the U-Bahn line 4 from there. Depending on your location you may also take the Bus (#123, #124, #137). Both "Misburger Straße" and "Medizinische Hochschule" stations are close by (See plan below).
+The MHH campus is easily reached via tram (line 4, direction Roderbruch) from the city centre (Kröpcke), which is a five minute walk from Hannover main station (Hauptbahnhof, Hbf). You can also take the S-Bahn to the "Bahnhof Karl-Wiechert-Allee" station and switch to the U-Bahn line 4 from there. Depending on your location you may also take the Bus (#123, #124, #137). Both "Misburger Straße" and "Medizinische Hochschule" stations are close by (See plan below).
 
 ### Arriving by Bike & Car
 
-Parking for both car and bike is available throughout the campus area.
+Parking for both cars and bikes is available throughout the campus area.
 
 ![Path from the "Medizinische Hochschule" U-bahn station](img/lageplan_arrows.png)
 
