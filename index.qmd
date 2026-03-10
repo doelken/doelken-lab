@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the Dölken Lab at the MHH"
+title: "Welcome to Dölken Lab at the MHH"
 toc: false
 page-layout: full
 engine: knitr
@@ -22,13 +22,13 @@ The Dölken Lab at Hannover Medical School (MHH) explores the intricate co-evolu
 
 ### Beyond the Tip of the Iceberg
 
-Because herpesviruses interfere with complex cellular signaling networks, we employ a systems-level approach to resolve the full spectrum of viral regulation. Our research moves from single-cell to organismal levels, focusing on three core pillars:
+Because herpesviruses interfere with complex cellular signaling networks, we employ a systems-level approach to resolve the full spectrum and complexity of virus-host interactions. Our research moves from single-cell to organismal levels, focusing on three core pillars:
 
--   **Manipulating the Host Machinery:** We use innovative 4sU-tagging (metabolic labeling) to capture real-time changes in RNA synthesis and decay. This allows us to study how viruses like HSV-1 disrupt cellular processes, such as transcription termination, to evade host defenses.
+-   **Manipulation of the Host Transcriptional Machinery:** We use innovative 4sU-tagging (metabolic labeling) to capture real-time changes in RNA synthesis, processing, and decay at bulk and single-cell level. This allows us to study how viruses like HSV-1 disrupt cellular processes, such as transcription termination, to evade host defenses.
 
--   **Functional Genome Re-annotation:** By integrating RNA-seq and ribosome profiling (Ribo-seq), we have discovered that herpesvirus genomes are far more complex than previously thought. We are currently re-annotating these genomes to include hundreds of novel transcripts and small open reading frames (sORFs) that regulate viral adaptation.
+-   **Functional Genome Re-annotation:** By integrating RNA-seq and ribosome profiling (Ribo-seq), we discovered that herpesvirus genomes are far more complex than previously thought. We are currently re-annotating these genomes to include hundreds of novel transcripts and small open reading frames (sORFs) that regulate viral adaptation.
 
--   **Single-Cell Dynamics (scSLAM-seq):** To overcome the limitations of standard single-cell sequencing, we pioneered scSLAM-seq. By combining metabolic labeling with chemical conversion, we can differentiate between "new" and "old" RNA within a single cell. This "super-resolution" view allows us to decipher stochastic virus-host interactions during latency, reactivation, and productive infection.
+-   **Single-Cell Dynamics (scSLAM-seq):** To overcome the limitations of standard single-cell sequencing, we pioneered scSLAM-seq. By combining metabolic labeling with chemical conversion, we can differentiate between "new" and "old" RNA within a single cell for thousands of genes in thousands of individual cells. This "super-resolution" view will enable us to decipher stochastic virus-host interactions during latency, reactivation, and productive infection.
 :::
 ::::
 
