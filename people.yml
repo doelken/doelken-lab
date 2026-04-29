@@ -55,12 +55,12 @@
   status: current
   url: people_pages/arnhild.qmd
   
-- name: Nicole Krönke
+- name: Silvan Grosse-Holz
   role: Technician
-  email: Kroenke.Nicole@mh-hannover.de
-  img: nicole.jpg
+  email: Grosse-Holz.Silvan@mh-hannover.de
+  img: silvan.jpeg
   status: current
-  url: people_pages/nicole.qmd
+  url: people_pages/silvan.qmd
 
 - name: Patrick Fischer, MSc
   role: PhD Student

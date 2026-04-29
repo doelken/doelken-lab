@@ -1,5 +1,5 @@
 ---
-title: "Claire Rousseau, MSc"
+title: "Claire Rousseau, PhD"
 image: "../img/people/claire.jpg"
 about:
   template: solana

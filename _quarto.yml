@@ -2,11 +2,11 @@ project:
   type: website
 
 website:
-  favicon: "img/favicon/favicon.ico"
+  favicon: "img/favicon_gemini/favicon.ico"
   title: ""
   reader-mode: true
   navbar:
-    logo: "img/Logo_MHH_rot-mit_virologie_group.png"
+    logo: "img/logo_gemini.png"
     left:
       - text: "Research" 
         href: research.qmd

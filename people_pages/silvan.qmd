@@ -1,12 +1,12 @@
 ---
-title: "Nicole Krönke"
-image: "../img/people/nicole.jpg"
+title: "Silvan Grosse-Holz"
+image: "../img/people/silvan.jpeg"
 about:
   template: solana
   links:
     - icon: envelope
       text: E-mail
-      href: mailto:Kroenke.Nicole@mh-hannover.de
+      href: mailto:Grosse-Holz.Silvan@mh-hannover.de
     - icon: mortarboard
       text: Google Scholar
       href: https://scholar.google.com/

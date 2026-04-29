@@ -1,5 +1,5 @@
 ---
-title: "Xiangming Han, MSc"
+title: "Xiangming Han, MD, MSc"
 image: "../img/people/xiangming.jpg"
 about:
   template: solana
@@ -9,15 +9,13 @@ about:
       href: mailto:Han.Xiangming@mh-hannover.de
     - icon: mortarboard
       text: Google Scholar
-      href: https://scholar.google.com/
+      href: https://scholar.google.com/citations?user=gIS9W5kAAAAJ&hl=en
     - icon: info-circle # ORCID doesn't have a native icon in many sets, this works well
       text: ORCID
-      href: https://orcid.org/
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/
+      href: https://orcid.org/0000-0002-2308-8143
 ---
 
-Short description/biography/hobbies of you.
+My journey from clinical medicine at Central South University and neurosurgical training in Beijing to virology research was sparked by a desire to understand and manipulate disease at its most fundamental level. During my master's degree, I pursued this by genetically engineering oncolytic Herpes Simplex Virus (oHSV) to enhance its anti-cancer potency and safety. Witnessing the significant improvement in patient overall survival following oHSV treatment in clinical settings profoundly solidified my interest in the intricate interactions between DNA viruses and their hosts. I am thrilled to continue this path as a PhD student in Prof. Lars Dölken's group at the Hannover Medical School in Germany, where I will investigate the sophisticated mechanisms by which Human Cytomegalovirus (HCMV) regulates its gene expression and the profound impact this has on host cell function. 
+Beyond the bench, I find balance in the strategic play of badminton and video games, and in exploring the outdoors through mountain climbing and hiking.
 
 [← Back to Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}
