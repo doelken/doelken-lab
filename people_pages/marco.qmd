@@ -1,24 +1,21 @@
 ---
 title: "Marco Antonio Olguín Nava, PhD"
 page-layout: full
-image: "../img/people/marco.jpg"
+image: "../img/people/marco2.png"
 about:
   template: solana
   links:
     - icon: envelope
       text: E-mail
       href: mailto:OlguinNava.Marco@mh-hannover.de
-    - icon: mortarboard
-      text: Google Scholar
-      href: https://scholar.google.com/
     - icon: info-circle # ORCID doesn't have a native icon in many sets, this works well
       text: ORCID
-      href: https://orcid.org/
+      href: https://orcid.org/0009-0004-9494-3508
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/marco-a-olguin-n/
 ---
 
-Short description/biography/hobbies of you.
+Marco Olguin (Mexico) obtained his PhD from the Würzburg Universität and Helmholtz Institute of RNA and Infection (Germany) in 2025. During his doctoral thesis, he developed a reverse genetic system for SARS-CoV-2 in order to study the impact of different mutations in the viral cycle and the host-virus interplay. In 2025, Marco started as a postdoc working in the group of Prof. Lars Dölken in the Virology department of Medizinische Hochschule Hannover. His current research project aims to understand the molecular mechanism and regulatory networks linking the accumulation of long aberrant RNA accumulation with cell death pathways. During his free time, Marco enjoys practicing CrossFit, spending time with friends, and building LEGO sets. 
 
 [← Back to Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}
