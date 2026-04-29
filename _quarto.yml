@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   favicon: "img/favicon_gemini/favicon.ico"
@@ -39,4 +40,3 @@ format:
     toc: true
 
 editor: source
-
