@@ -15,7 +15,7 @@ about:
       href: https://orcid.org/
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/nicole-krönke-a91615128/
+      href: https://www.linkedin.com/in/silvan-grosse-holz-07b08b389/
 ---
 
 Short description/biography/hobbies of you.
