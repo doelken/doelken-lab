@@ -53,21 +53,21 @@
   email: Grothey.Arnhild@mh-hannover.de
   img: arnhild.jpg
   status: current
-  url: people_pages/arnhild.qmd
+  url: 
   
 - name: Silvan Grosse-Holz
   role: Technician
   email: Grosse-Holz.Silvan@mh-hannover.de
   img: silvan.jpeg
   status: current
-  url: people_pages/silvan.qmd
+  url: 
 
 - name: Patrick Fischer, MSc
   role: PhD Student
   email: patrick.fischer@stud-mail.uni-wuerzburg.de
   img: patrick.jpg
-  status: current
-  url: people_pages/patrick.qmd
+  status: alumni
+  url: 
   
 - name: Lena Wolpert, MSc
   role: PhD Student
@@ -95,7 +95,7 @@
   email: Kreibohm.Silja@mh-hannover.de
   img: silja.jpg
   status: current
-  url: people_pages/silja.qmd
+  url:
   
 - name: Sophia Kieferle, MSc
   role: PhD Student
@@ -111,11 +111,87 @@
   status: current
   url: people_pages/santiago.qmd
   
-- name: Former Student Name
+- name: Bernard Rädle
   role: Alumni
-  email: alumni@example.com
+  email: 
   img: placeholder.jpg
   status: alumni
   url:
   
+- name: Sheila Jedlicka
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Lisa Marcinowski
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Andrej Rutkowski
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Anne L‘Hernault
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Miranda de Graf
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
 
+- name: Bhaskar Jha
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Marisa Baptista 
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Lara Djakovic
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+
+- name: Manivel Lodha
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Andrea Milic
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Bhupesh Prusty
+  role: Alumni
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  

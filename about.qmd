@@ -3,12 +3,13 @@ title: "About us"
 page-layout: full
 body-classes: about-page
 ---
+![](img/logo_V3.png)
 
 We are located in building J6 of [Hannover Medical School (MHH)](https://www.mhh.de/en/) at the [Institute of Virology](https://www.mhh.de/en/mhh-institutes/virology), Dölken Group [(AG Dölken)](https://www.mhh.de/virologie/forschung/doelken-lab).
 
 ## Join us
 
-If you are interested in joining the group for a Master’s thesis, MD project, PhD position, or postdoctoral research, feel free to get in touch by email. Please include a short description of your background and your research interests.
+If you are interested in joining the group for a Master’s thesis, MD project, PhD position, or postdoctoral research, feel free to get in touch by [email](mailto:agdoelken@gmail.com?subject=Application). Please include a short description of your background and your research interests.
 
 ## Contact
 
