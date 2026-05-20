@@ -214,35 +214,21 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "These are the latest updates from our group:\n\n\n\n\n\n\n\n\n\nDölken Lab is now ONline\n\n\n\n\n\n02/26\n\n\n\n\n\nNo matching items"
+    "text": "These are the latest updates from our group:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatrick Fischer successfully defends doctoral thesis\n\n\n\n\n\n05/26\n\n\n\n\n\n\n\nDölken Lab is now ONline\n\n\n\n\n\n02/26\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Dölken Lab at the MHH",
+    "objectID": "news/2026-02-10-new_website.html",
+    "href": "news/2026-02-10-new_website.html",
+    "title": "Dölken Lab is now ONline",
     "section": "",
-    "text": "The Dölken Lab at Hannover Medical School (MHH) explores the intricate co-evolution between herpesviruses and their hosts. While these large DNA viruses are significant human pathogens—causing everything from common cold sores to cancer—they also serve as powerful tools for uncovering fundamental principles of cell biology and immunology.\n\n\nBecause herpesviruses interfere with complex cellular signaling networks, we employ a systems-level approach to resolve the full spectrum and complexity of virus-host interactions. Our research moves from single-cell to organismal levels, focusing on three core pillars:\n\nManipulation of the Host Transcriptional Machinery: We use innovative 4sU-tagging (metabolic labeling) to capture real-time changes in RNA synthesis, processing, and decay at bulk and single-cell level. This allows us to study how viruses like HSV-1 disrupt cellular processes, such as transcription termination, to evade host defenses.\nFunctional Genome Re-annotation: By integrating RNA-seq and ribosome profiling (Ribo-seq), we discovered that herpesvirus genomes are far more complex than previously thought. We are currently re-annotating these genomes to include hundreds of novel transcripts and small open reading frames (sORFs) that regulate viral adaptation.\nSingle-Cell Dynamics (scSLAM-seq): To overcome the limitations of standard single-cell sequencing, we pioneered scSLAM-seq. By combining metabolic labeling with chemical conversion, we can differentiate between “new” and “old” RNA within a single cell for thousands of genes in thousands of individual cells. This “super-resolution” view will enable us to decipher stochastic virus-host interactions during latency, reactivation, and productive infection.\n\n\n\n\n\n\n\n\n\nIn HSV-1-infected cells, ICP27 interacts with CPSF and induces the assembly of an aberrant 3′ processing complex. At viral PASs or host PASs that have GC-rich upstream sequences (UPS), ICP27 binds to these UPS sequences and promotes recruitment of CPSF, thereby activating mRNA 3′ processing. The transition of ICP27 between the CPSF-bound and UPS RNA-bound states is illustrated by a dotted line. From Wang et al., Nat Comm, 2020"
+    "text": "The new website for the group is now ON. Proudly created in-house by one of our students.\n\n\n\nOverview of proudful moment (The camera adds at least 5 kgs). Thanks to Yan for the pic.\n\n\n← Return to News Overview ← Return to Homepage"
   },
   {
-    "objectID": "index.html#systems-and-rna-biology-of-herpesvirus-infections",
-    "href": "index.html#systems-and-rna-biology-of-herpesvirus-infections",
-    "title": "Welcome to Dölken Lab at the MHH",
+    "objectID": "impressum.html",
+    "href": "impressum.html",
+    "title": "Impressum",
     "section": "",
-    "text": "The Dölken Lab at Hannover Medical School (MHH) explores the intricate co-evolution between herpesviruses and their hosts. While these large DNA viruses are significant human pathogens—causing everything from common cold sores to cancer—they also serve as powerful tools for uncovering fundamental principles of cell biology and immunology.\n\n\nBecause herpesviruses interfere with complex cellular signaling networks, we employ a systems-level approach to resolve the full spectrum and complexity of virus-host interactions. Our research moves from single-cell to organismal levels, focusing on three core pillars:\n\nManipulation of the Host Transcriptional Machinery: We use innovative 4sU-tagging (metabolic labeling) to capture real-time changes in RNA synthesis, processing, and decay at bulk and single-cell level. This allows us to study how viruses like HSV-1 disrupt cellular processes, such as transcription termination, to evade host defenses.\nFunctional Genome Re-annotation: By integrating RNA-seq and ribosome profiling (Ribo-seq), we discovered that herpesvirus genomes are far more complex than previously thought. We are currently re-annotating these genomes to include hundreds of novel transcripts and small open reading frames (sORFs) that regulate viral adaptation.\nSingle-Cell Dynamics (scSLAM-seq): To overcome the limitations of standard single-cell sequencing, we pioneered scSLAM-seq. By combining metabolic labeling with chemical conversion, we can differentiate between “new” and “old” RNA within a single cell for thousands of genes in thousands of individual cells. This “super-resolution” view will enable us to decipher stochastic virus-host interactions during latency, reactivation, and productive infection."
-  },
-  {
-    "objectID": "index.html#recent-news",
-    "href": "index.html#recent-news",
-    "title": "Welcome to Dölken Lab at the MHH",
-    "section": "Recent News",
-    "text": "Recent News\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nTuesday, February 10, 2026\n\n\nDölken Lab is now ONline\n\n\nUpdates\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "datenschutz.html",
-    "href": "datenschutz.html",
-    "title": "Privacy Policy (Datenschutzerklärung)",
-    "section": "",
-    "text": "1. General Information\nThe operators of this website take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations (GDPR).\n\n\n2. Data Collection\nWhen you visit this website, certain technical data is automatically collected (e.g., IP address, browser type, time of access). This is handled by our hosting provider and is necessary for the technical security of the site.\n\n\n3. Google Web Fonts\nThis site uses web fonts provided by Google for uniform representation of fonts. When you open a page, your browser loads the required web fonts into your browser cache to display texts and fonts correctly. For this purpose, your browser establishes a direct connection to Google servers.\n\n\n4. Your Rights\nYou have the right to receive information about the origin, recipient, and purpose of your stored personal data at any time free of charge. You also have a right to request the correction or deletion of this data."
+    "text": "Responsibility for Content\nAG Dölken Medizinische Hochschule Hannover (MHH)\nInstitute for Virology\nCarl-Neuberg-Straße 1\n30625 Hannover, Germany\nRepresented by: Prof. Dr. Lars Dölken\n\n\nContact\nPhone: 6376 235 115 94+  Email: Pr. Dr. med. Lars Dölken (Doelken.Lars at mh-hannover dot de)\n\n\nDisclaimer\nDespite careful content control, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content."
   },
   {
     "objectID": "about.html",
@@ -280,18 +266,39 @@
     "text": "Director\nProf. Dr. med. Lars Dölken  Director of the Institute of Virology  Email Lars (doelken.lars at mh-hannover dot de?subject=Contact%20from%20Doelken%20Group%20Website)  Secretary Phone: 6376 235 115 94+\n\n\n\nProf. Dr. med. Lars Dölken"
   },
   {
-    "objectID": "impressum.html",
-    "href": "impressum.html",
-    "title": "Impressum",
+    "objectID": "datenschutz.html",
+    "href": "datenschutz.html",
+    "title": "Privacy Policy (Datenschutzerklärung)",
     "section": "",
-    "text": "Responsibility for Content\nAG Dölken Medizinische Hochschule Hannover (MHH)\nInstitute for Virology\nCarl-Neuberg-Straße 1\n30625 Hannover, Germany\nRepresented by: Prof. Dr. Lars Dölken\n\n\nContact\nPhone: 6376 235 115 94+  Email: Pr. Dr. med. Lars Dölken (Doelken.Lars at mh-hannover dot de)\n\n\nDisclaimer\nDespite careful content control, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content."
+    "text": "1. General Information\nThe operators of this website take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations (GDPR).\n\n\n2. Data Collection\nWhen you visit this website, certain technical data is automatically collected (e.g., IP address, browser type, time of access). This is handled by our hosting provider and is necessary for the technical security of the site.\n\n\n3. Google Web Fonts\nThis site uses web fonts provided by Google for uniform representation of fonts. When you open a page, your browser loads the required web fonts into your browser cache to display texts and fonts correctly. For this purpose, your browser establishes a direct connection to Google servers.\n\n\n4. Your Rights\nYou have the right to receive information about the origin, recipient, and purpose of your stored personal data at any time free of charge. You also have a right to request the correction or deletion of this data."
   },
   {
-    "objectID": "news/2026-02-10-new_website.html",
-    "href": "news/2026-02-10-new_website.html",
-    "title": "Dölken Lab is now ONline",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Dölken Lab at the MHH",
     "section": "",
-    "text": "The new website for the group is now ON. Proudly created in-house by one of our students.\n\n\n\nOverview of proudful moment (The camera adds at least 5 kgs). Thanks to Yan for the pic.\n\n\n← Return to News Overview ← Return to Homepage"
+    "text": "The Dölken Lab at Hannover Medical School (MHH) explores the intricate co-evolution between herpesviruses and their hosts. While these large DNA viruses are significant human pathogens—causing everything from common cold sores to cancer—they also serve as powerful tools for uncovering fundamental principles of cell biology and immunology.\n\n\nBecause herpesviruses interfere with complex cellular signaling networks, we employ a systems-level approach to resolve the full spectrum and complexity of virus-host interactions. Our research moves from single-cell to organismal levels, focusing on three core pillars:\n\nManipulation of the Host Transcriptional Machinery: We use innovative 4sU-tagging (metabolic labeling) to capture real-time changes in RNA synthesis, processing, and decay at bulk and single-cell level. This allows us to study how viruses like HSV-1 disrupt cellular processes, such as transcription termination, to evade host defenses.\nFunctional Genome Re-annotation: By integrating RNA-seq and ribosome profiling (Ribo-seq), we discovered that herpesvirus genomes are far more complex than previously thought. We are currently re-annotating these genomes to include hundreds of novel transcripts and small open reading frames (sORFs) that regulate viral adaptation.\nSingle-Cell Dynamics (scSLAM-seq): To overcome the limitations of standard single-cell sequencing, we pioneered scSLAM-seq. By combining metabolic labeling with chemical conversion, we can differentiate between “new” and “old” RNA within a single cell for thousands of genes in thousands of individual cells. This “super-resolution” view will enable us to decipher stochastic virus-host interactions during latency, reactivation, and productive infection.\n\n\n\n\n\n\n\n\n\nIn HSV-1-infected cells, ICP27 interacts with CPSF and induces the assembly of an aberrant 3′ processing complex. At viral PASs or host PASs that have GC-rich upstream sequences (UPS), ICP27 binds to these UPS sequences and promotes recruitment of CPSF, thereby activating mRNA 3′ processing. The transition of ICP27 between the CPSF-bound and UPS RNA-bound states is illustrated by a dotted line. From Wang et al., Nat Comm, 2020"
+  },
+  {
+    "objectID": "index.html#systems-and-rna-biology-of-herpesvirus-infections",
+    "href": "index.html#systems-and-rna-biology-of-herpesvirus-infections",
+    "title": "Welcome to Dölken Lab at the MHH",
+    "section": "",
+    "text": "The Dölken Lab at Hannover Medical School (MHH) explores the intricate co-evolution between herpesviruses and their hosts. While these large DNA viruses are significant human pathogens—causing everything from common cold sores to cancer—they also serve as powerful tools for uncovering fundamental principles of cell biology and immunology.\n\n\nBecause herpesviruses interfere with complex cellular signaling networks, we employ a systems-level approach to resolve the full spectrum and complexity of virus-host interactions. Our research moves from single-cell to organismal levels, focusing on three core pillars:\n\nManipulation of the Host Transcriptional Machinery: We use innovative 4sU-tagging (metabolic labeling) to capture real-time changes in RNA synthesis, processing, and decay at bulk and single-cell level. This allows us to study how viruses like HSV-1 disrupt cellular processes, such as transcription termination, to evade host defenses.\nFunctional Genome Re-annotation: By integrating RNA-seq and ribosome profiling (Ribo-seq), we discovered that herpesvirus genomes are far more complex than previously thought. We are currently re-annotating these genomes to include hundreds of novel transcripts and small open reading frames (sORFs) that regulate viral adaptation.\nSingle-Cell Dynamics (scSLAM-seq): To overcome the limitations of standard single-cell sequencing, we pioneered scSLAM-seq. By combining metabolic labeling with chemical conversion, we can differentiate between “new” and “old” RNA within a single cell for thousands of genes in thousands of individual cells. This “super-resolution” view will enable us to decipher stochastic virus-host interactions during latency, reactivation, and productive infection."
+  },
+  {
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Welcome to Dölken Lab at the MHH",
+    "section": "Recent News",
+    "text": "Recent News\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nWednesday, May 20, 2026\n\n\nPatrick Fischer successfully defends doctoral thesis\n\n\nNews; Thesis\n\n\n\n\n\n\nTuesday, February 10, 2026\n\n\nDölken Lab is now ONline\n\n\nUpdates\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/2026-05-20-patrick_defence.html",
+    "href": "news/2026-05-20-patrick_defence.html",
+    "title": "Patrick Fischer successfully defends doctoral thesis",
+    "section": "",
+    "text": "Patrick’s thesis defence, May 2026\n\n\n\nWe are delighted to share that Patrick Fischer successfully defended his doctoral thesis on May 19th, 2026, at the University of Würzburg. His thesis, entitled Modulation of the DNA Damage Response and Interferon Pathways by the HSV-1 UL36DUB and the DTX3L–PARP9 Complex, was defended in a hybrid format at Room S268, Institute for Virology and Immunobiology in Würzburg.\nPatrick’s doctoral project was carried out as part of DEEP-DV (FOR 5200) — Disrupt, Evade, Exploit — a DFG-funded research unit investigating how herpesviruses manipulate their hosts. His work, carried out in close collaboration with our lab manager and postdoctoral researcher Thomas Hennig, represents a significant contribution to our understanding of how HSV-1 modulates key host defense pathways, specifically the DNA damage response and interferon-stimulated gene expression via the DTX3L–PARP9 complex.\nWe are incredibly proud of Patrick’s achievement and wish him all the best in the next chapter of his career.\nCongratulations, Dr. Fischer! 🎉\n\n← Return to News Overview ← Return to Homepage"
   },
   {
     "objectID": "our_team.html#current-members",
