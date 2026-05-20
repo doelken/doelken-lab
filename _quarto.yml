@@ -38,5 +38,6 @@ format:
     header-font: "Helvetica Neue, Helvetica, Arial, sans-serif"
     css: styles.css
     toc: true
+    #Wasn't possible to add clean URLs in an easy way, eventually will change all links to pages.
 
 editor: source
