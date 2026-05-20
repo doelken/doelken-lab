@@ -3,11 +3,11 @@ project:
   output-dir: docs
 
 website:
-  favicon: "img/favicon_gemini/favicon.ico"
+  favicon: "img/favicon_v3/favicon.ico"
   title: ""
   reader-mode: true
   navbar:
-    logo: "img/logo_gemini.png"
+    logo: "img/logo_v3.png"
     left:
       - text: "Research" 
         href: research.qmd
@@ -32,8 +32,8 @@ format:
   html:
     email-obfuscation: javascript
     theme:
-      light: litera
-      dark: darkly
+      light: spacelab
+      dark: superhero
     mainfont: "Helvetica Neue, Helvetica, Arial, sans-serif"
     header-font: "Helvetica Neue, Helvetica, Arial, sans-serif"
     css: styles.css
