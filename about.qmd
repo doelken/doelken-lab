@@ -3,7 +3,7 @@ title: "About us"
 page-layout: full
 body-classes: about-page
 ---
-![](img/logo_V3.png)
+![](img/logo_v3.png)
 
 We are located in building J6 of [Hannover Medical School (MHH)](https://www.mhh.de/en/) at the [Institute of Virology](https://www.mhh.de/en/mhh-institutes/virology), Dölken Group [(AG Dölken)](https://www.mhh.de/virologie/forschung/doelken-lab).
 
