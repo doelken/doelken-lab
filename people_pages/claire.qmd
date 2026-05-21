@@ -6,13 +6,13 @@ about:
   links:
     - icon: envelope
       text: E-mail
-      href: mailto:claire.rousseau@stud-mail.uni-wuerzburg.de
+      href: mailto:claire.rousseau@uni-wuerzburg.de
     - icon: mortarboard
       text: Google Scholar
-      href: https://scholar.google.com/
+      href: https://scholar.google.com/citations?user=OWe3234AAAAJ&hl=en
     - icon: info-circle # ORCID doesn't have a native icon in many sets, this works well
       text: ORCID
-      href: https://orcid.org/
+      href: https://orcid.org/0000-0001-6441-6919
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/claire-rousseau-b49237140/
