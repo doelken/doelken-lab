@@ -27,12 +27,18 @@ years <- get_years(bib)
 for (yy in years) {
   entries <- bib[which(vapply(bib, get_year, integer(1)) == yy)]
   entries <- entries[!vapply(entries, has_excluded_author, logical(1))]
+  # Sort by month descending (newest first within year)
+  entries <- entries[order(vapply(entries, get_month, integer(1)), decreasing = TRUE)]
+  #cat(paste(vapply(entries, get_month, integer(1)), collapse = ", "))
   if (length(entries) == 0) next
 
   cat(sprintf("\n\n## %d\n\n", yy))
   cat('<div class="pub-year">\n')
 
   for (e in entries) {
+    # cat(sprintf("DEBUG: month field = '%s', class = '%s'\n", 
+    # paste(e$month, collapse="|"), 
+    # class(e$month)))
     title <- clean_title(e$title)
     link  <- best_link(e)
     auth  <- highlight_authors(author_string(e))

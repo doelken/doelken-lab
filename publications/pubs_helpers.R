@@ -68,6 +68,21 @@ get_year <- function(e) {
   NA_integer_
 }
 
+get_month <- function(e) {
+  val_str <- tryCatch(
+    paste(e$month, collapse = ""),
+    error = function(err) ""
+  )
+  if (is.null(val_str) || is.na(val_str) || !nzchar(val_str)) return(0L)
+  
+  # Text abbreviation (oct, aug, jan etc.)
+  m <- match(tolower(substr(val_str, 1, 3)),
+             c("jan","feb","mar","apr","may","jun",
+               "jul","aug","sep","oct","nov","dec"))
+  if (!is.na(m)) return(m)
+  return(0L)
+}
+
 get_venue <- function(e) {
   for (f in c("journaltitle", "journal", "booktitle", "publisher")) {
     if (!is.null(e[[f]]) && nzchar(as.character(e[[f]]))) {
