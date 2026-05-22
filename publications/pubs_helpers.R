@@ -4,6 +4,9 @@ library(stringr)
 # ---- Config ----
 lab_names <- c(
   "Lars Dölken",
+  "L. Dölken",
+  "L. Dolken",
+  "Lars Dolken",
   "Thomas Hennig",
   "Patrick Fischer",
   "Adam W. Whisnant",

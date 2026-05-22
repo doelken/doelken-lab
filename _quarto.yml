@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - CNAME
 
 website:
   favicon: "img/favicon_v3/favicon.ico"

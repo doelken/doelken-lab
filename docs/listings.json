@@ -1,13 +1,13 @@
 [
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
       "/news/2026-05-20-patrick_defence.html",
       "/news/2026-02-10-new_website.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/news.html",
     "items": [
       "/news/2026-05-20-patrick_defence.html",
       "/news/2026-02-10-new_website.html"
