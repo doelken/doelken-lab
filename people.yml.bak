@@ -61,6 +61,13 @@
   img: silvan.jpeg
   status: current
   url: 
+
+- name: Patrick Fischer, PhD
+  role: Alumnus
+  email: patrick.fischer@stud-mail.uni-wuerzburg.de
+  img: patrick.jpg
+  status: alumni
+  url: 
   
 - name: Lena Wolpert, MSc
   role: PhD Student
@@ -104,107 +111,87 @@
   status: current
   url: people_pages/santiago.qmd
   
-- name: Patrick Fischer
-  role: Alumnus (PhD - Würzburg University)
-  email: 
-  img: alumni/patrick.jpg
-  status: alumni
-  current_position:
-  url: https://www.linkedin.com/in/patrick-fischer-b84b28360/
-  
-- name: Bhupesh Prusty, PhD
-  role: Alumnus (Postdoctoral researcher - Würzburg University)
-  email: 
-  img: alumni/bhupesh.jpg
-  status: alumni
-  current_position: Lead Researcher/Group Leader, Riga University
-  url: https://www.prustylab.org
-  
-- name: Andrea Milic
-  role: Alumna (PhD - Würzburg University)
-  email: 
-  img: alumni/andrea.png
-  status: alumni
-  current_position: Industry - Nuvisan
-  url: https://www.linkedin.com/in/milicandrea/
-  
-- name: Manivel Lodha
-  role: Alumnus (PhD - Würzburg University)
-  email: 
-  img: alumni/manivel.png
-  status: alumni
-  current_position: Postdoctoral Researcher, Rockefeller University
-  url: https://www.linkedin.com/in/manivel-lodha-ph-d-aa6b78157/
-  
-- name: Lara Djakovic
-  role: Alumna (PhD - Würzburg University)
-  email: 
-  img: alumni/lara.png
-  status: alumni
-  current_position: Industry - Boehringer Ingelheim
-  url: https://www.linkedin.com/in/lara-djakovic-053474169/
-
-- name: Marisa Baptista 
-  role: Alumna (Postdoctoral researcher - Würzburg University)
+- name: Bernard Rädle
+  role: Alumni
   email: 
   img: placeholder.jpg
-  status: alumni
-  current_position:
-  url: https://www.linkedin.com/in/marisabaptista/
-
-- name: Bhaskar Jha
-  role: Alumnus (Postdoctoral researcher - Würzburg University)
-  email: 
-  img: alumni/bhaskar.png
-  status: alumni
-  current_position: Industry - Azenta Life Sciences
-  url: https://www.linkedin.com/in/bhaskar-anand-1187941a1/
-  
-  
-- name: Andrzej Rutkowski
-  role: Alumnus (Postdoctoral researcher - Cambridge University)
-  email: 
-  img: alumni/rutkowski.jpg
-  status: alumni
-  current_position: Industry - Medicines Discovery Catapult (MDC)
-  url: https://www.linkedin.com/in/andrzej-rutkowski/
-  
-- name: Anne L‘Hernault
-  role: Alumna (Postdoctoral researcher - Cambridge University)
-  email: 
-  img: alumni/anne.png
-  status: alumni
-  current_position: Industry - AstraZeneca
-  url: https://www.linkedin.com/in/annelhernault/?skipRedirect=true
-  
-- name: Miranda de Graaf
-  role: Alumna (Research assistant - Cambridge University)
-  email: 
-  img: alumni/miranda.png
-  status: alumni
-  current_position: Associate Professor/Group Leader, Erasmus MC
-  url: https://www.erasmusmc.nl/en/research/researchers/graaf-miranda-de
-  
-- name: Lisa Marcinowski
-  role: Alumna (PhD - LMU)
-  email: 
-  img: alumni/lisa.png
-  status: alumni
-  current_position: Industry - Sandoz Biopharmaceuticals
-  url: https://www.linkedin.com/in/lisa-marcinowski-40518383/
+  status: alumnus
+  url:
   
 - name: Sheila Jedlicka
-  role: Alumna (LMU)
-  email: 
-  img: alumni/sheila.jpg
-  status: alumni
-  current_position: Specialist - Neurosurgery Dept., München Klink
-  url: https://www.muenchen-klinik.de/krankenhaus/bogenhausen/nervensystem-gehirn/neurochirurgie-wirbelsaeule-gehirn/neurochirurgen-spezialist-ruecken-nerven-gehirn/
-  
-- name: Bernd Rädle
-  role: Alumnus (Technician - LMU)
+  role: Alumna
   email: 
   img: placeholder.jpg
   status: alumni
-  current_position: 
   url:
+  
+- name: Lisa Marcinowski
+  role: Alumna
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Andrej Rutkowski
+  role: Alumnus
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Anne L‘Hernault
+  role: Alumna
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Miranda de Graf
+  role: Alumna
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+
+- name: Bhaskar Jha
+  role: Alum
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Marisa Baptista 
+  role: Alumna
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Lara Djakovic
+  role: Alumna
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+
+- name: Manivel Lodha
+  role: Alum
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Andrea Milic
+  role: Alumna
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  
+- name: Bhupesh Prusty
+  role: Alum
+  email: 
+  img: placeholder.jpg
+  status: alumni
+  url:
+  

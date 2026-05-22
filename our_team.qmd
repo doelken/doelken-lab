@@ -60,6 +60,13 @@ generate_team_grid <- function(status_filter) {
         '</a>'
       )
     }
+    
+    # Current position for alumni
+    position_html <- ""
+    if (!is.null(person$current_position) && nzchar(person$current_position)) {
+      position_html <- paste0('<div class="team-position"><em>Now: ', 
+                              person$current_position, '</em></div>')
+      }
 
     html_out <- paste0(
       '<div class="team-card">',
@@ -67,6 +74,7 @@ generate_team_grid <- function(status_filter) {
       '<div class="team-text">',
       '<strong>', name_html, '</strong>',
       '<div>', person$role, '</div>',
+      position_html,
       email_btn,
       '</div>',
       '</div>'
