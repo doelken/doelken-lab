@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/2026-06-09-yan_article.html",
       "/news/2026-05-20-patrick_defence.html",
       "/news/2026-02-10-new_website.html"
     ]
@@ -9,6 +10,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/news/2026-06-09-yan_article.html",
       "/news/2026-05-20-patrick_defence.html",
       "/news/2026-02-10-new_website.html"
     ]

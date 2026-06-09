@@ -12,7 +12,9 @@ lab_names <- c(
   "Adam W. Whisnant",
   "Arnhild Grothey",
   "Marco Olguin-Nava",
-  "Claire Rousseau"
+  "Claire Rousseau",
+  "Yan Zheng",
+  "Xiangming Han"
 )
 
 # ----- Exclude publications with Gottfried Dölken ----- #
