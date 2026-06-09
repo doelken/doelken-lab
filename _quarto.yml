@@ -9,7 +9,7 @@ website:
   title: ""
   reader-mode: true
   navbar:
-    logo: "img/logo_v3.png"
+    logo: "img/logo_v4.png"
     left:
       - text: "Research" 
         href: research.qmd

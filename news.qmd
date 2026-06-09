@@ -3,7 +3,7 @@ title: "News"
 page-layout: full
 listing:
   contents: 
-    - "news/*"
+    - "news/*.qmd"
     - "!news/_templates/**"
   sort: "date desc"
   type: default
