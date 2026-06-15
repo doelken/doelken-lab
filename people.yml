@@ -23,21 +23,21 @@
 - name: Marco Antonio Olguin Nava, PhD
   role: Post Doctoral Researcher
   email: OlguinNava.Marco@mh-hannover.de
-  img: marco.jpg
+  img: marco3.jpg
   status: current
   url: people_pages/marco.qmd
   
 - name: Mohamed Rasheed Gadalla, PhD
   role: Post Doctoral Researcher
   email: Gadalla.Mohamed@mh-hannover.de	
-  img: mohamed.jpg
+  img: mohamed2.jpg
   status: current
   url: people_pages/mohamed.qmd
 
 - name: Katarzyna Szymanska-De Wijs, PhD
   role: Post Doctoral Researcher
   email: Szymanska-DeWijs.Katarzyna@mh-hannover.de
-  img: kasia.jpg
+  img: kasia2.jpg
   status: current
   url: people_pages/kasia.qmd
   
@@ -58,30 +58,30 @@
 - name: Silvan Grosse-Holz
   role: Technician
   email: Grosse-Holz.Silvan@mh-hannover.de
-  img: silvan.jpeg
+  img: silvan2.jpg
   status: current
   url: 
   
 - name: Lena Wolpert, MSc
   role: PhD Student
   email: Wolpert.Lena@mh-hannover.de
-  img: lena.jpg
+  img: lena2.jpg
   status: current
   url: people_pages/lena.qmd
   
 - name: Xiangming Han, MSc
   role: PhD Student
   email: Han.Xiangming@mh-hannover.de
-  img: xiangming.jpg
+  img: xiangming2.jpg
   status: current
   url: people_pages/xiangming.qmd
   
 - name: Yan Zheng, MSc
   role: PhD Student
   email: Zheng.Yan@mh-hannover.de
-  img: yan.jpg
+  img: yan2.jpg
   status: current
-  url: people_pages/yan.qmd
+  url: 
 
 - name: Silja Kreibohm, MD
   role: Medical Resident
@@ -93,14 +93,14 @@
 - name: Sophia Kieferle, MSc
   role: PhD Student
   email: Kieferle.Sophia@mh-hannover.de
-  img: sophia.jpg
+  img: sophia2.jpg
   status: current
-  url: people_pages/sophia.qmd
+  url: 
   
 - name: Santiago Alvarez-Cardenas, MSc
   role: PhD Student
   email: AlvarezCardenas.Santiago@mh-hannover.de
-  img: santiago.png
+  img: santiago2.jpg
   status: current
   url: people_pages/santiago.qmd
   

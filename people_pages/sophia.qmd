@@ -1,6 +1,6 @@
 ---
 title: "Sophia Kieferle, MSc"
-image: "../img/people/sophia.jpg"
+image: "../img/people/sophia2.jpg"
 about:
   template: solana
   links:
