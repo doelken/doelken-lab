@@ -1,6 +1,6 @@
 ---
 title: "Xiangming Han, MD, MSc"
-image: "../img/people/xiangming.jpg"
+image: "../img/people/xiangming2.jpg"
 about:
   template: solana
   links:

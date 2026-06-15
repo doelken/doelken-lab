@@ -1,6 +1,6 @@
 ---
 title: "Yan Zheng, MSc"
-image: "../img/people/yan.jpg"
+image: "../img/people/yan2.jpg"
 about:
   template: solana
   links:

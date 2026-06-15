@@ -1,6 +1,6 @@
 ---
 title: "Silvan Grosse-Holz"
-image: "../img/people/silvan.jpeg"
+image: "../img/people/silvan2.jpg"
 about:
   template: solana
   links:

@@ -1,6 +1,6 @@
 ---
 title: "Mohamed Rasheed Gadalla, PhD"
-image: "../img/people/mohamed.jpg"
+image: "../img/people/mohamed2.jpg"
 about:
   template: solana
   links:
