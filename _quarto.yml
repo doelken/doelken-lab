@@ -5,6 +5,7 @@ project:
     - CNAME
 
 website:
+  site-url: "https://doelkenlab.de"
   favicon: "img/favicon_v3/favicon.ico"
   title: ""
   reader-mode: true
