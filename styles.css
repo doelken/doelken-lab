@@ -299,3 +299,12 @@ body.quarto-dark .team-email {
   color: var(--mhh-red-dark) !important;
   text-decoration: none;
 }
+
+/* Global link color */
+a:not(.btn):not(.about-link):not(.team-email-btn):not(.team-name-link):not(.nav-link):not(.navbar-brand):not(.anchorjs-link) {
+  color: var(--mhh-red) !important;
+}
+
+a:not(.btn):not(.about-link):not(.team-email-btn):not(.team-name-link):not(.nav-link):not(.navbar-brand):not(.anchorjs-link):hover {
+  color: var(--mhh-red-dark) !important;
+}

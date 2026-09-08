@@ -19,6 +19,8 @@ website:
         href: news.qmd
       - text: "Team" 
         href: our_team.qmd
+      - text: "Open Positions"
+        href: open_positions.qmd
       - about.qmd
   page-footer:
     left: "© 2026 AG Dölken"
@@ -33,6 +35,7 @@ website:
 
 format:
   html:
+    include-in-header: head.html
     email-obfuscation: javascript
     theme:
       light: spacelab
