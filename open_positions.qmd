@@ -1,0 +1,58 @@
+---
+title: "Open Positions"
+page-layout: full
+execute: 
+  echo: false
+  warning: false
+---
+
+There are currently no open positions in the lab. 
+Check back soon or reach out via [email](mailto:agdoelken@gmail.com) for spontaneous applications.
+
+<!-- UNCOMMENT WHEN A POSITION OPENS
+
+<div style="background: var(--surface-2); border: 0.5px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-top: 1rem;">
+  <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1rem;">
+    <div>
+      <span style="background: var(--bg-accent); color: var(--text-accent); font-size: 12px; padding: 4px 10px; border-radius: 6px; font-weight: 500;">PhD position</span>
+      <h2 style="margin: 0.5rem 0 0.25rem; font-size: 18px; font-weight: 500;">[Project title]</h2>
+      <p style="margin: 0; font-size: 14px; color: var(--text-secondary);">Dölken Lab · Hannover Medical School (MHH)</p>
+    </div>
+    <span style="background: var(--bg-success); color: var(--text-success); font-size: 12px; padding: 4px 10px; border-radius: 6px; font-weight: 500;">Open</span>
+  </div>
+  <div style="border-top: 0.5px solid var(--border); padding-top: 1rem; margin-bottom: 1rem;">
+    <p style="font-size: 14px; color: var(--text-secondary);">[Short project description — 2-3 sentences]</p>
+  </div>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 1rem;">
+    <div style="background: var(--surface-1); border-radius: 6px; padding: 0.75rem 1rem;">
+      <p style="margin: 0 0 0.25rem; font-size: 12px; color: var(--text-muted);">START DATE</p>
+      <p style="margin: 0; font-size: 14px;">[e.g. January 2027]</p>
+    </div>
+    <div style="background: var(--surface-1); border-radius: 6px; padding: 0.75rem 1rem;">
+      <p style="margin: 0 0 0.25rem; font-size: 12px; color: var(--text-muted);">DURATION</p>
+      <p style="margin: 0; font-size: 14px;">[e.g. 3 years]</p>
+    </div>
+    <div style="background: var(--surface-1); border-radius: 6px; padding: 0.75rem 1rem;">
+      <p style="margin: 0 0 0.25rem; font-size: 12px; color: var(--text-muted);">FUNDING</p>
+      <p style="margin: 0; font-size: 14px;">[e.g. DFG / ERC / TV-L E13]</p>
+    </div>
+    <div style="background: var(--surface-1); border-radius: 6px; padding: 0.75rem 1rem;">
+      <p style="margin: 0 0 0.25rem; font-size: 12px; color: var(--text-muted);">DEADLINE</p>
+      <p style="margin: 0; font-size: 14px;">[e.g. 31 October 2026]</p>
+    </div>
+  </div>
+  <div style="margin-bottom: 1rem;">
+    <p style="margin: 0 0 0.5rem; font-size: 14px; font-weight: 500;">Requirements</p>
+    <ul style="margin: 0; padding-left: 1.25rem; font-size: 14px; color: var(--text-secondary); line-height: 1.8;">
+      <li>MSc degree in [Biology / Biomedicine / Biochemistry or related field]</li>
+      <li>Experience in [e.g. molecular biology, cell culture, bioinformatics]</li>
+      <li>Strong interest in virology and/or RNA biology</li>
+      <li>Good communication skills in English</li>
+    </ul>
+  </div>
+  <div style="border-top: 0.5px solid var(--border); padding-top: 1rem;">
+    <p style="margin: 0; font-size: 13px; color: var(--text-muted);">Send applications to <a href="mailto:contact@doelkenlab.de">contact@doelkenlab.de</a></p>
+  </div>
+</div>
+
+-->
