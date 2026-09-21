@@ -18,7 +18,7 @@ listing:
 ::: justified
 ## Systems and RNA Biology of Herpesvirus Infections
 
-The Dölken Lab at Hannover Medical School (MHH) explores the intricate co-evolution between herpesviruses and their hosts. While these large DNA viruses are significant human pathogens—causing everything from common cold sores to cancer—they also serve as powerful tools for uncovering fundamental principles of cell biology and immunology.
+The Dölken Lab, led by **Prof. Dr. Lars Dölken** at Hannover Medical School (MHH) explores the intricate co-evolution between herpesviruses and their hosts. While these large DNA viruses are significant human pathogens—causing everything from common cold sores to cancer—they also serve as powerful tools for uncovering fundamental principles of cell biology and immunology.
 
 ### Beyond the Tip of the Iceberg
 
