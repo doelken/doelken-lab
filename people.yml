@@ -104,6 +104,13 @@
   status: current
   url: people_pages/santiago.qmd
   
+- name: Harshita Gautam, MSc
+  role: PhD Student
+  email: Harshita.Gautam@stud.mh-hannover.de
+  img: harshita.jpg
+  status: current
+  url: people_pages/harshita.qmd
+  
 - name: Dr. Patrick Fischer
   role: Alumnus (PhD - Würzburg University)
   email: 

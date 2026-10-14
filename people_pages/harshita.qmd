@@ -1,0 +1,26 @@
+---
+title: "Harshita Gautam, MSc"
+page-layout: full
+image: "../img/people/harshita.jpg"
+about:
+  template: solana
+  links:
+    - icon: envelope
+      text: E-mail
+      href: mailto:Harshita.Gautam@stud.mh-hannover.de
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/harshita-gautam-889a692b0/
+---
+
+My interest in understanding the molecular basis of disease took shape during my studies in Zoology at the University of Delhi and deepened during my master’s in Biochemistry at the University of Hyderabad. During my master’s, I studied the MPN-domain-containing protein MPND, focusing on its deubiquitinase activity. This experience sparked my interest in understanding how proteins function and how their activities influence cellular processes.
+
+As I explored these questions further, I became increasingly interested in how proteins contribute to disease, particularly during viral infections. This led me to join the Molecular Pathogenesis Laboratory at the University of Hyderabad as a Project Associate, where I investigated host-virus interactions during HIV-1 infection. My work focused on the non-canonical antiviral functions of karyophilic proteins and HIV-1 capsid-mitochondrial interactions.
+
+I am now excited to explore these questions in the context of Herpes Simplex Virus type 1 (HSV-1), focusing on the viral deubiquitinase embedded within the N-terminus of pUL36. My research investigates how this viral protein reshapes host ubiquitin signalling and the DNA damage response during infection, with the broader aim of understanding how these changes influence DNA repair and viral replication. 
+
+Outside the lab, I enjoy travelling to the mountains and hiking, reading, dancing, and taking long walks in parks or by lakes. I also love unwinding by playing online games with friends.
+
+
+
+[← Back to Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}
