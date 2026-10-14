@@ -3,7 +3,7 @@ title: "New member: Welcome to the lab, Harshita"
 date: 2026-10-14
 categories: [News; Members]
 ---
-![Overview of the Title Page](../img/events/welcome_pics/harshita1.jpeg) 
+![Harshita in the lab](../img/events/welcome_pics/harshita1.jpeg) 
 
 We are delighted to welcome **Harshita Gautam**, who has joined the Dölken Lab as a PhD student at the Institute of Virology, MHH!
 
