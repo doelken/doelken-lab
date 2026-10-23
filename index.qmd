@@ -13,8 +13,8 @@ listing:
     date-format: full
 ---
 
-::::::: columns
-:::: {.column width="60%"}
+::::::: {.grid}
+:::: {.g-col-12 .g-col-md-8}
 ::: justified
 ## Systems and RNA Biology of Herpesvirus Infections
 
@@ -32,14 +32,10 @@ Because herpesviruses interfere with complex cellular signaling networks, we emp
 :::
 ::::
 
-::: {.column width="10%"}
-:::
-
-::: {.column width="30%"}
+::: {.g-col-12 .g-col-md-4}
 ![In HSV-1-infected cells, ICP27 interacts with CPSF and induces the assembly of an aberrant 3′ processing complex. At viral PASs or host PASs that have GC-rich upstream sequences (UPS), ICP27 binds to these UPS sequences and promotes recruitment of CPSF, thereby activating mRNA 3′ processing. The transition of ICP27 between the CPSF-bound and UPS RNA-bound states is illustrated by a dotted line. From Wang *et al.*, Nat Comm, 2020](img/41467_2019_14109_Fig7_HTML.png)
 :::
 :::::::
-
 
 ## Recent News
 

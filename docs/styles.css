@@ -308,3 +308,11 @@ a:not(.btn):not(.about-link):not(.team-email-btn):not(.team-name-link):not(.nav-
 a:not(.btn):not(.about-link):not(.team-email-btn):not(.team-name-link):not(.nav-link):not(.navbar-brand):not(.anchorjs-link):hover {
   color: var(--mhh-red-dark) !important;
 }
+
+/* On phones, justified text creates huge word gaps */
+@media (max-width: 768px) {
+  .justified p,
+  .justified li {
+    text-align: left;
+  }
+}
