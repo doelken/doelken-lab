@@ -368,6 +368,115 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#80
 </section>
 
 </main> <!-- /main -->
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  // Pages that exist in both languages (English paths, from site root)
+
+  var translated = /^\/(index\.html)?$|^\/(research|publications|news|our_team|open_positions|about|impressum|datenschutz)\.html$|^\/people_pages\/[^\/]+\.html$/;
+
+
+
+  var labels = {
+
+    "Research": "Forschung",
+
+    "Publications": "Publikationen",
+
+    "News": "Neuigkeiten",
+
+    "Team": "Team",
+
+    "Open Positions": "Offene Stellen",
+
+    "About us": "Über uns",
+
+    "Imprint": "Impressum",
+
+    "Privacy": "Datenschutz",
+
+    "Contact": "Kontakt"
+
+  };
+
+
+
+  var path = window.location.pathname;
+
+  var isDe = /^\/de(\/|$)/.test(path);
+
+
+
+  if (isDe) {
+
+    // Navbar, logo and footer: German labels, links to /de/ pages
+
+    document.querySelectorAll("#quarto-header a, .nav-footer a").forEach(function (a) {
+
+      var url = new URL(a.href, window.location.href);
+
+      if (url.origin === window.location.origin && translated.test(url.pathname)) {
+
+        a.href = "/de" + url.pathname + url.hash;
+
+        if (url.pathname !== "/" && "/de" + url.pathname === path) a.classList.add("active");
+
+      }
+
+      var span = a.querySelector(".menu-text");
+
+      if (span && labels[span.textContent.trim()]) {
+
+        span.textContent = labels[span.textContent.trim()];
+
+      }
+
+    });
+
+    document.querySelectorAll(".nav-footer-right").forEach(function (el) {
+
+      el.innerHTML = el.innerHTML.replace("Built with", "Erstellt mit");
+
+    });
+
+  }
+
+
+
+  // DE/EN toggle at the end of the navbar
+
+  var target = isDe
+
+    ? (path.replace(/^\/de/, "") || "/")
+
+    : (translated.test(path) ? "/de" + path : "/de/");
+
+
+
+  var nav = document.querySelector("#quarto-header .navbar-nav");
+
+  if (nav) {
+
+    var li = document.createElement("li");
+
+    li.className = "nav-item";
+
+    li.innerHTML =
+
+      '<a class="nav-link lang-switch" href="' + target + '" hreflang="' + (isDe ? "en" : "de") + '">' +
+
+      '<i class="bi bi-translate" role="img"></i> ' +
+
+      '<span class="menu-text">' + (isDe ? "EN" : "DE") + '</span></a>';
+
+    nav.appendChild(li);
+
+  }
+
+});
+
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
