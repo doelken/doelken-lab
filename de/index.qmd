@@ -5,8 +5,10 @@ page-layout: full
 engine: knitr
 listing:
   - id: latest-news
-    type: table
-    contents: /news
+    type: table 
+    contents:
+      - "../news/*.qmd"
+      - "!../news/_templates/**"
     max-items: 5
     sort: "date desc"
     fields: [date, title, categories]

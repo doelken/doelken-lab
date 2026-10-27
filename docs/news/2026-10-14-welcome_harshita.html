@@ -405,9 +405,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  if (isDe) {
+  // 1. German pages: German labels, links stay inside /de/
 
-    // Navbar, logo and footer: German labels, links to /de/ pages
+  if (isDe) {
 
     document.querySelectorAll("#quarto-header a, .nav-footer a").forEach(function (a) {
 
@@ -441,27 +441,43 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  // DE/EN toggle next to the dark-mode and reader-view buttons
+  // 2. Where the language button leads
 
-  var link = document.createElement("a");
+  var target = isDe
 
-  link.href = target;
+    ? (path.replace(/^\/de/, "") || "/")
 
-  link.className = "quarto-navigation-tool px-1 lang-switch";
-
-  link.setAttribute("hreflang", isDe ? "en" : "de");
-
-  link.setAttribute("title", isDe ? "English version" : "Deutsche Version");
-
-  link.textContent = isDe ? "EN" : "DE";
+    : (translated.test(path) ? "/de" + path : "/de/");
 
 
 
-  var tools = document.querySelector("#quarto-header .quarto-navbar-tools");
+  function makeLink(cls) {
 
-  if (tools) {
+    var link = document.createElement("a");
 
-    tools.prepend(link);
+    link.href = target;
+
+    link.className = cls + " lang-switch";
+
+    link.setAttribute("hreflang", isDe ? "en" : "de");
+
+    link.setAttribute("title", isDe ? "English version" : "Deutsche Version");
+
+    link.textContent = isDe ? "EN" : "DE";
+
+    return link;
+
+  }
+
+
+
+  // 3. Put the button next to the dark-mode / reader-view buttons
+
+  var tools = document.querySelectorAll("#quarto-header .quarto-navbar-tools");
+
+  if (tools.length) {
+
+    tools.forEach(function (t) { t.prepend(makeLink("quarto-navigation-tool px-1")); });
 
   } else {
 
@@ -473,9 +489,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       li.className = "nav-item";
 
-      link.className = "nav-link lang-switch";
-
-      li.appendChild(link);
+      li.appendChild(makeLink("nav-link"));
 
       nav.appendChild(li);
 
