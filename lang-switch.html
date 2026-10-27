@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
   var path = window.location.pathname;
   var isDe = /^\/de(\/|$)/.test(path);
 
+  // 1. German pages: German labels, links stay inside /de/
   if (isDe) {
-    // Navbar, logo and footer: German labels, links to /de/ pages
     document.querySelectorAll("#quarto-header a, .nav-footer a").forEach(function (a) {
       var url = new URL(a.href, window.location.href);
       if (url.origin === window.location.origin && translated.test(url.pathname)) {
@@ -36,24 +36,31 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // DE/EN toggle next to the dark-mode and reader-view buttons
-  var link = document.createElement("a");
-  link.href = target;
-  link.className = "quarto-navigation-tool px-1 lang-switch";
-  link.setAttribute("hreflang", isDe ? "en" : "de");
-  link.setAttribute("title", isDe ? "English version" : "Deutsche Version");
-  link.textContent = isDe ? "EN" : "DE";
+  // 2. Where the language button leads
+  var target = isDe
+    ? (path.replace(/^\/de/, "") || "/")
+    : (translated.test(path) ? "/de" + path : "/de/");
 
-  var tools = document.querySelector("#quarto-header .quarto-navbar-tools");
-  if (tools) {
-    tools.prepend(link);
+  function makeLink(cls) {
+    var link = document.createElement("a");
+    link.href = target;
+    link.className = cls + " lang-switch";
+    link.setAttribute("hreflang", isDe ? "en" : "de");
+    link.setAttribute("title", isDe ? "English version" : "Deutsche Version");
+    link.textContent = isDe ? "EN" : "DE";
+    return link;
+  }
+
+  // 3. Put the button next to the dark-mode / reader-view buttons
+  var tools = document.querySelectorAll("#quarto-header .quarto-navbar-tools");
+  if (tools.length) {
+    tools.forEach(function (t) { t.prepend(makeLink("quarto-navigation-tool px-1")); });
   } else {
     var nav = document.querySelector("#quarto-header .navbar-nav");
     if (nav) {
       var li = document.createElement("li");
       li.className = "nav-item";
-      link.className = "nav-link lang-switch";
-      li.appendChild(link);
+      li.appendChild(makeLink("nav-link"));
       nav.appendChild(li);
     }
   }

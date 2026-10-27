@@ -87,9 +87,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-date','listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -426,20 +426,99 @@ window.Quarto = {
 <div class="news-home">
 <div id="listing-latest-news" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-latest-news-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-latest-news'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
+      <option value="index" data-direction="asc">Voreinstellung</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Datum - Datum (aufsteigend)
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Datum - Neueste
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Titel
+      </option>
+    </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table caption-top">
+<table class="quarto-listing-table table">
 <thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th">Datum</th>
-<th data-quarto-table-cell-role="th">Titel</th>
-<th data-quarto-table-cell-role="th">Kategorien</th>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Datum</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
+</th>
+
+<th>
+Kategorien
+</th>
+
 </tr>
 </thead>
 <tbody class="list">
+
+<tr data-index="0" data-categories="TmV3cyUzQiUyME1lbWJlcnM=" data-listing-date-sort="1791928800000" data-listing-file-modified-sort="1791978964220" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247" data-listing-title-sort="New member: Welcome to the lab, Harshita" data-listing-filename-sort="2026-10-14-welcome_harshita.qmd">
+<td>
+<span class="listing-date">Mittwoch, 14. Oktober 2026</span>
+</td>
+<td>
+<a href="../news/2026-10-14-welcome_harshita.html" class="title listing-title">New member: Welcome to the lab, Harshita</a>
+</td>
+<td>
+<span class="listing-categories">News; Members</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="TmV3cyUzQiUyMFB1YmxpY2F0aW9ucw==" data-listing-date-sort="1779400800000" data-listing-file-modified-sort="1781009900055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433" data-listing-title-sort="New publication: A novel MCMV protein hidden inside the viral DNA polymerase gene" data-listing-filename-sort="2026-06-09-yan_article.qmd">
+<td>
+<span class="listing-date">Freitag, 22. Mai 2026</span>
+</td>
+<td>
+<a href="../news/2026-06-09-yan_article.html" class="title listing-title">New publication: A novel MCMV protein hidden inside the viral DNA polymerase gene</a>
+</td>
+<td>
+<span class="listing-categories">News; Publications</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="TmV3cyUzQiUyMFRoZXNpcw==" data-listing-date-sort="1779228000000" data-listing-file-modified-sort="1779357041890" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173" data-listing-title-sort="Patrick Fischer successfully defends doctoral thesis" data-listing-filename-sort="2026-05-20-patrick_defence.qmd">
+<td>
+<span class="listing-date">Mittwoch, 20. Mai 2026</span>
+</td>
+<td>
+<a href="../news/2026-05-20-patrick_defence.html" class="title listing-title">Patrick Fischer successfully defends doctoral thesis</a>
+</td>
+<td>
+<span class="listing-categories">News; Thesis</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="VXBkYXRlcw==" data-listing-date-sort="1770678000000" data-listing-file-modified-sort="1781023229640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46" data-listing-title-sort="Dölken Lab is now ONline" data-listing-filename-sort="2026-02-10-new_website.qmd">
+<td>
+<span class="listing-date">Dienstag, 10. Februar 2026</span>
+</td>
+<td>
+<a href="../news/2026-02-10-new_website.html" class="title listing-title">Dölken Lab is now ONline</a>
+</td>
+<td>
+<span class="listing-categories">Updates</span>
+</td>
+
+</tr>
+
 </tbody>
 </table>
 <div class="listing-no-matching d-none">Keine Treffer</div>
@@ -491,9 +570,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  if (isDe) {
+  // 1. German pages: German labels, links stay inside /de/
 
-    // Navbar, logo and footer: German labels, links to /de/ pages
+  if (isDe) {
 
     document.querySelectorAll("#quarto-header a, .nav-footer a").forEach(function (a) {
 
@@ -527,27 +606,43 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  // DE/EN toggle next to the dark-mode and reader-view buttons
+  // 2. Where the language button leads
 
-  var link = document.createElement("a");
+  var target = isDe
 
-  link.href = target;
+    ? (path.replace(/^\/de/, "") || "/")
 
-  link.className = "quarto-navigation-tool px-1 lang-switch";
-
-  link.setAttribute("hreflang", isDe ? "en" : "de");
-
-  link.setAttribute("title", isDe ? "English version" : "Deutsche Version");
-
-  link.textContent = isDe ? "EN" : "DE";
+    : (translated.test(path) ? "/de" + path : "/de/");
 
 
 
-  var tools = document.querySelector("#quarto-header .quarto-navbar-tools");
+  function makeLink(cls) {
 
-  if (tools) {
+    var link = document.createElement("a");
 
-    tools.prepend(link);
+    link.href = target;
+
+    link.className = cls + " lang-switch";
+
+    link.setAttribute("hreflang", isDe ? "en" : "de");
+
+    link.setAttribute("title", isDe ? "English version" : "Deutsche Version");
+
+    link.textContent = isDe ? "EN" : "DE";
+
+    return link;
+
+  }
+
+
+
+  // 3. Put the button next to the dark-mode / reader-view buttons
+
+  var tools = document.querySelectorAll("#quarto-header .quarto-navbar-tools");
+
+  if (tools.length) {
+
+    tools.forEach(function (t) { t.prepend(makeLink("quarto-navigation-tool px-1")); });
 
   } else {
 
@@ -559,9 +654,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       li.className = "nav-item";
 
-      link.className = "nav-link lang-switch";
-
-      li.appendChild(link);
+      li.appendChild(makeLink("nav-link"));
 
       nav.appendChild(li);
 

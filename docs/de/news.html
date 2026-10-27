@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -405,7 +405,62 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-categories="TmV3cyUzQiUyME1lbWJlcnM=" data-listing-date-sort="1791928800000" data-listing-file-modified-sort="1791978964220" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../news/2026-10-14-welcome_harshita.html" class="no-external">New member: Welcome to the lab, Harshita</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../news/2026-10-14-welcome_harshita.html" class="no-external">
+<div class="listing-date">
+10/26
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="TmV3cyUzQiUyMFB1YmxpY2F0aW9ucw==" data-listing-date-sort="1779400800000" data-listing-file-modified-sort="1781009900055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../news/2026-06-09-yan_article.html" class="no-external">New publication: A novel MCMV protein hidden inside the viral DNA polymerase gene</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../news/2026-06-09-yan_article.html" class="no-external">
+<div class="listing-date">
+05/26
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="TmV3cyUzQiUyMFRoZXNpcw==" data-listing-date-sort="1779228000000" data-listing-file-modified-sort="1779357041890" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../news/2026-05-20-patrick_defence.html" class="no-external">Patrick Fischer successfully defends doctoral thesis</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../news/2026-05-20-patrick_defence.html" class="no-external">
+<div class="listing-date">
+05/26
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="VXBkYXRlcw==" data-listing-date-sort="1770678000000" data-listing-file-modified-sort="1781023229640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../news/2026-02-10-new_website.html" class="no-external">Dölken Lab is now ONline</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="../news/2026-02-10-new_website.html" class="no-external">
+<div class="listing-date">
+02/26
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">Keine Treffer</div>
 </div></main> <!-- /main -->
@@ -449,9 +504,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  if (isDe) {
+  // 1. German pages: German labels, links stay inside /de/
 
-    // Navbar, logo and footer: German labels, links to /de/ pages
+  if (isDe) {
 
     document.querySelectorAll("#quarto-header a, .nav-footer a").forEach(function (a) {
 
@@ -485,27 +540,43 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  // DE/EN toggle next to the dark-mode and reader-view buttons
+  // 2. Where the language button leads
 
-  var link = document.createElement("a");
+  var target = isDe
 
-  link.href = target;
+    ? (path.replace(/^\/de/, "") || "/")
 
-  link.className = "quarto-navigation-tool px-1 lang-switch";
-
-  link.setAttribute("hreflang", isDe ? "en" : "de");
-
-  link.setAttribute("title", isDe ? "English version" : "Deutsche Version");
-
-  link.textContent = isDe ? "EN" : "DE";
+    : (translated.test(path) ? "/de" + path : "/de/");
 
 
 
-  var tools = document.querySelector("#quarto-header .quarto-navbar-tools");
+  function makeLink(cls) {
 
-  if (tools) {
+    var link = document.createElement("a");
 
-    tools.prepend(link);
+    link.href = target;
+
+    link.className = cls + " lang-switch";
+
+    link.setAttribute("hreflang", isDe ? "en" : "de");
+
+    link.setAttribute("title", isDe ? "English version" : "Deutsche Version");
+
+    link.textContent = isDe ? "EN" : "DE";
+
+    return link;
+
+  }
+
+
+
+  // 3. Put the button next to the dark-mode / reader-view buttons
+
+  var tools = document.querySelectorAll("#quarto-header .quarto-navbar-tools");
+
+  if (tools.length) {
+
+    tools.forEach(function (t) { t.prepend(makeLink("quarto-navigation-tool px-1")); });
 
   } else {
 
@@ -517,9 +588,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       li.className = "nav-item";
 
-      link.className = "nav-link lang-switch";
-
-      li.appendChild(link);
+      li.appendChild(makeLink("nav-link"));
 
       nav.appendChild(li);
 
