@@ -1,0 +1,28 @@
+---
+title: "Katarzyna Szymanska−De Wijs, PhD"
+page-layout: full
+image: "../../img/people/kasia2.jpg"
+about:
+  template: solana
+  links:
+    - icon: envelope
+      text: E-Mail
+      href: mailto:Szymanska-DeWijs.Katarzyna@mh-hannover.de
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/
+    - icon: info-circle # ORCID doesn't have a native icon in many sets, this works well
+      text: ORCID
+      href: https://orcid.org/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/katarzyna-s-62a39282/
+---
+
+Beruflich bin ich Virologin und von ganzem Herzen Wissenschaftlerin. Die Arbeit im Labor hat mir schon immer Freude bereitet: Experimente sorgfältig zu planen, sie mit voller Konzentration durchzuführen und bei der Datenanalyse zu sehen, wie Ideen Gestalt annehmen – ein bisschen wie Zauberei, nur echt.
+
+Meine Faszination für die komplexe Welt der Viren begann im Labor von Prof. Judith White an der University of Virginia, wo ich als Visiting Graduate Student die Membranfusion von Ebola- und Lassaviren untersuchte. Für meine Promotion zog ich nach Hannover und schloss mich der Arbeitsgruppe von Prof. Martin Messerle an. Meine Forschung konzentrierte sich auf die funktionelle Bedeutung der M25-Proteine bei der MCMV-Infektion. Derzeit liegt mein wissenschaftlicher Schwerpunkt darauf, mithilfe von Einzelzelltechniken Determinanten zu definieren und zu validieren, die den Ausgang von HCMV- und MCMV-Infektionen bestimmen.
+
+Privat bin ich Mutter von vier Jungen und liebe Reisen, Radfahren, das Ausprobieren neuer Rezepte und das Lösen von Zeitreise- und Mordrätseln.
+
+[← Zurück zum Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}

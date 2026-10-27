@@ -1,5 +1,5 @@
 ---
-title: "Katarzyna Szymanska−De Wijs, PhD"
+title: "Katarzyna Szymanska-De Wijs, PhD"
 page-layout: full
 image: "../img/people/kasia2.jpg"
 about:

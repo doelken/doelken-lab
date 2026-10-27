@@ -1,0 +1,15 @@
+---
+title: "Neuigkeiten"
+page-layout: full
+listing:
+  contents:
+    - "../news/*.qmd"
+    - "!../news/_templates/**"
+  sort: "date desc"
+  type: default
+  page-size: 20
+  fields: [date, title]
+  date-format: "MM/YY"
+---
+
+Hier finden Sie die neuesten Meldungen aus unserer Gruppe (derzeit nur auf Englisch):

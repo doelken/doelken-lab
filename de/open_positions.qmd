@@ -1,0 +1,58 @@
+---
+title: "Offene Stellen"
+page-layout: full
+execute:
+  echo: false
+  warning: false
+---
+
+Derzeit gibt es keine offenen Stellen in unserer Arbeitsgruppe.
+Schauen Sie bald wieder vorbei oder senden Sie uns gerne eine Initiativbewerbung per [E-Mail](mailto:agdoelken@gmail.com).
+
+<!-- AUSKOMMENTIERUNG ENTFERNEN, SOBALD EINE STELLE OFFEN IST
+
+<div style="background: var(--surface-2); border: 0.5px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-top: 1rem;">
+  <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1rem;">
+    <div>
+      <span style="background: var(--bg-accent); color: var(--text-accent); font-size: 12px; padding: 4px 10px; border-radius: 6px; font-weight: 500;">Promotionsstelle</span>
+      <h2 style="margin: 0.5rem 0 0.25rem; font-size: 18px; font-weight: 500;">[Projekttitel]</h2>
+      <p style="margin: 0; font-size: 14px; color: var(--text-secondary);">Dölken Lab · Medizinische Hochschule Hannover (MHH)</p>
+    </div>
+    <span style="background: var(--bg-success); color: var(--text-success); font-size: 12px; padding: 4px 10px; border-radius: 6px; font-weight: 500;">Offen</span>
+  </div>
+  <div style="border-top: 0.5px solid var(--border); padding-top: 1rem; margin-bottom: 1rem;">
+    <p style="font-size: 14px; color: var(--text-secondary);">[Kurze Projektbeschreibung – 2–3 Sätze]</p>
+  </div>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 1rem;">
+    <div style="background: var(--surface-1); border-radius: 6px; padding: 0.75rem 1rem;">
+      <p style="margin: 0 0 0.25rem; font-size: 12px; color: var(--text-muted);">BEGINN</p>
+      <p style="margin: 0; font-size: 14px;">[z. B. Januar 2027]</p>
+    </div>
+    <div style="background: var(--surface-1); border-radius: 6px; padding: 0.75rem 1rem;">
+      <p style="margin: 0 0 0.25rem; font-size: 12px; color: var(--text-muted);">DAUER</p>
+      <p style="margin: 0; font-size: 14px;">[z. B. 3 Jahre]</p>
+    </div>
+    <div style="background: var(--surface-1); border-radius: 6px; padding: 0.75rem 1rem;">
+      <p style="margin: 0 0 0.25rem; font-size: 12px; color: var(--text-muted);">FINANZIERUNG</p>
+      <p style="margin: 0; font-size: 14px;">[z. B. DFG / ERC / TV-L E13]</p>
+    </div>
+    <div style="background: var(--surface-1); border-radius: 6px; padding: 0.75rem 1rem;">
+      <p style="margin: 0 0 0.25rem; font-size: 12px; color: var(--text-muted);">BEWERBUNGSFRIST</p>
+      <p style="margin: 0; font-size: 14px;">[z. B. 31. Oktober 2026]</p>
+    </div>
+  </div>
+  <div style="margin-bottom: 1rem;">
+    <p style="margin: 0 0 0.5rem; font-size: 14px; font-weight: 500;">Voraussetzungen</p>
+    <ul style="margin: 0; padding-left: 1.25rem; font-size: 14px; color: var(--text-secondary); line-height: 1.8;">
+      <li>Masterabschluss in [Biologie / Biomedizin / Biochemie oder einem verwandten Fach]</li>
+      <li>Erfahrung in [z. B. Molekularbiologie, Zellkultur, Bioinformatik]</li>
+      <li>Großes Interesse an Virologie und/oder RNA-Biologie</li>
+      <li>Gute Englischkenntnisse in Wort und Schrift</li>
+    </ul>
+  </div>
+  <div style="border-top: 0.5px solid var(--border); padding-top: 1rem;">
+    <p style="margin: 0; font-size: 13px; color: var(--text-muted);">Bewerbungen bitte an <a href="mailto:contact@doelkenlab.de">contact@doelkenlab.de</a></p>
+  </div>
+</div>
+
+-->

@@ -1,5 +1,6 @@
 - name: Prof. Dr. med. Lars Dölken
   role: Principal Investigator
+  role_de: Arbeitsgruppenleiter
   email: Doelken.Lars@mh-hannover.de
   img: pr_doelken.jpg
   status: current
@@ -8,152 +9,177 @@
 
 - name: Thomas Hennig, PhD
   role: Post Doctoral Researcher | Lab Manager
+  role_de: Postdoc | Laborleitung
   email: Hennig.Thomas@mh-hannover.de
   img: thomas.jpg
   status: current
   url: people_pages/thomas.qmd
-  
+
 - name: Adam Wesley Whisnant, PhD
   role: Post Doctoral Researcher
+  role_de: Postdoc
   email: Whisnant.Adam@mh-hannover.de
   img: adam.jpg
   status: current
   url: people_pages/adam.qmd
 
-- name: Marco Antonio Olguin Nava, PhD
+- name: Marco Antonio Olguín Nava, PhD
   role: Post Doctoral Researcher
+  role_de: Postdoc
   email: OlguinNava.Marco@mh-hannover.de
   img: marco3.jpg
   status: current
   url: people_pages/marco.qmd
-  
+
 - name: Mohamed Rasheed Gadalla, PhD
   role: Post Doctoral Researcher
-  email: Gadalla.Mohamed@mh-hannover.de	
+  role_de: Postdoc
+  email: Gadalla.Mohamed@mh-hannover.de
   img: mohamed2.jpg
   status: current
   url: people_pages/mohamed.qmd
 
 - name: Katarzyna Szymanska-De Wijs, PhD
   role: Post Doctoral Researcher
+  role_de: Postdoc
   email: Szymanska-DeWijs.Katarzyna@mh-hannover.de
   img: kasia2.jpg
   status: current
   url: people_pages/kasia.qmd
-  
+
 - name: Claire Rousseau, PhD
-  role: Post Doctoral Researcher 
+  role: Post Doctoral Researcher
+  role_de: Postdoc
   email: Claire.Rousseau@uni-wuerzburg.de
   img: claire.jpg
   status: current
   url: people_pages/claire.qmd
-  
+
 - name: Arnhild Grothey
   role: Technician
+  role_de: Technische Assistentin
   email: Grothey.Arnhild@mh-hannover.de
   img: arnhild.jpg
   status: current
-  url: 
-  
+  url:
+
 - name: Silvan Grosse-Holz
   role: Technician
+  role_de: Technischer Assistent
   email: Grosse-Holz.Silvan@mh-hannover.de
   img: silvan2.jpg
   status: current
-  url: 
-  
+  url:
+
 - name: Lena Wolpert, MSc
   role: PhD Student
+  role_de: Doktorandin
   email: Wolpert.Lena@mh-hannover.de
   img: lena2.jpg
   status: current
   url: people_pages/lena.qmd
-  
-- name: Xiangming Han, MSc
+
+- name: Xiangming Han, MD, MSc
   role: PhD Student
+  role_de: Doktorand
   email: Han.Xiangming@mh-hannover.de
   img: xiangming2.jpg
   status: current
   url: people_pages/xiangming.qmd
-  
+
 - name: Yan Zheng, MSc
   role: PhD Student
+  role_de: Doktorandin
   email: Zheng.Yan@mh-hannover.de
   img: yan2.jpg
   status: current
-  url: 
+  url:
 
 - name: Silja Kreibohm, MD
   role: Medical Resident
+  role_de: Assistenzärztin
   email: Kreibohm.Silja@mh-hannover.de
   img: silja.jpg
   status: current
   url:
-  
+
 - name: Sophia Kieferle, MSc
   role: PhD Student
+  role_de: Doktorandin
   email: Kieferle.Sophia@mh-hannover.de
   img: sophia2.jpg
   status: current
-  url: 
-  
+  url:
+
 - name: Santiago Alvarez-Cardenas, MSc
   role: PhD Student
+  role_de: Doktorand
   email: AlvarezCardenas.Santiago@mh-hannover.de
   img: santiago2.jpg
   status: current
   url: people_pages/santiago.qmd
-  
+
 - name: Harshita Gautam, MSc
   role: PhD Student
+  role_de: Doktorandin
   email: Harshita.Gautam@stud.mh-hannover.de
   img: harshita.jpg
   status: current
   url: people_pages/harshita.qmd
-  
+
 - name: Dr. Patrick Fischer
   role: Alumnus (PhD - Würzburg University)
-  email: 
+  role_de: Ehemaliger Doktorand (Universität Würzburg)
+  email:
   img: alumni/patrick.jpg
   status: alumni
   current_position:
   url: https://www.linkedin.com/in/patrick-fischer-b84b28360/
-  
+
 - name: Prof. Bhupesh Prusty
   role: Alumnus (Postdoctoral researcher - Würzburg University)
-  email: 
+  role_de: Ehemaliger Postdoc (Universität Würzburg)
+  email:
   img: alumni/bhupesh.jpg
   status: alumni
   current_position: Lead Researcher/Group Leader, Riga University
+  current_position_de: Gruppenleiter, Universität Riga
   url: https://www.prustylab.org
-  
+
 - name: Dr. Andrea Milic
   role: Alumna (PhD - Würzburg University)
-  email: 
+  role_de: Ehemalige Doktorandin (Universität Würzburg)
+  email:
   img: alumni/andrea.png
   status: alumni
   current_position: Industry - Nuvisan
+  current_position_de: Industrie – Nuvisan
   url: https://www.linkedin.com/in/milicandrea/
-  
+
 - name: Dr. Manivel Lodha
   role: Alumnus (PhD - Würzburg University)
-  email: 
+  role_de: Ehemaliger Doktorand (Universität Würzburg)
+  email:
   img: alumni/manivel.png
   status: alumni
   current_position: Postdoctoral Researcher, Rockefeller University
+  current_position_de: Postdoc, Rockefeller University
   url: https://www.linkedin.com/in/manivel-lodha-ph-d-aa6b78157/
-  
+
 - name: Dr. Lara Djakovic
   role: Alumna (PhD - Würzburg University)
-  email: 
+  role_de: Ehemalige Doktorandin (Universität Würzburg)
+  email:
   img: alumni/lara.png
   status: alumni
   current_position: Industry - Boehringer Ingelheim
+  current_position_de: Industrie – Boehringer Ingelheim
   url: https://www.linkedin.com/in/lara-djakovic-053474169/
 
-- name: Dr. Marisa Baptista 
+- name: Dr. Marisa Baptista
   role: Alumna (Postdoctoral researcher - Würzburg University)
-  email: 
+  role_de: Ehemalige Postdoc (Universität Würzburg)
+  email:
   img: placeholder.jpg
   status: alumni
   current_position:
@@ -161,57 +187,70 @@
 
 - name: Dr. Bhaskar Jha
   role: Alumnus (Postdoctoral researcher - Würzburg University)
-  email: 
+  role_de: Ehemaliger Postdoc (Universität Würzburg)
+  email:
   img: alumni/bhaskar.png
   status: alumni
   current_position: Industry - Azenta Life Sciences
+  current_position_de: Industrie – Azenta Life Sciences
   url: https://www.linkedin.com/in/bhaskar-anand-1187941a1/
-  
-  
+
+
 - name: Dr. Andrzej Rutkowski
   role: Alumnus (Postdoctoral researcher - Cambridge University)
-  email: 
+  role_de: Ehemaliger Postdoc (University of Cambridge)
+  email:
   img: alumni/rutkowski.jpg
   status: alumni
   current_position: Industry - Medicines Discovery Catapult (MDC)
+  current_position_de: Industrie – Medicines Discovery Catapult (MDC)
   url: https://www.linkedin.com/in/andrzej-rutkowski/
-  
+
 - name: Dr. Anne L‘Hernault
   role: Alumna (Postdoctoral researcher - Cambridge University)
-  email: 
+  role_de: Ehemalige Postdoc (University of Cambridge)
+  email:
   img: alumni/anne.png
   status: alumni
   current_position: Industry - AstraZeneca
+  current_position_de: Industrie – AstraZeneca
   url: https://www.linkedin.com/in/annelhernault/?skipRedirect=true
-  
+
 - name: Prof. Miranda de Graaf
   role: Alumna (Research assistant - Cambridge University)
-  email: 
+  role_de: Ehemalige wissenschaftliche Mitarbeiterin (University of Cambridge)
+  email:
   img: alumni/miranda.png
   status: alumni
   current_position: Associate Professor/Group Leader, Erasmus MC
+  current_position_de: Associate Professor/Gruppenleiterin, Erasmus MC
   url: https://www.erasmusmc.nl/en/research/researchers/graaf-miranda-de
-  
+
 - name: Dr. Lisa Marcinowski
   role: Alumna (PhD - LMU)
-  email: 
+  role_de: Ehemalige Doktorandin (LMU München)
+  email:
   img: alumni/lisa.png
   status: alumni
   current_position: Industry - Sandoz Biopharmaceuticals
+  current_position_de: Industrie – Sandoz Biopharmaceuticals
   url: https://www.linkedin.com/in/lisa-marcinowski-40518383/
-  
+
 - name: Dr. Sheila Jedlicka
   role: Alumna (LMU)
-  email: 
+  role_de: Ehemalige Mitarbeiterin (LMU München)
+  email:
   img: alumni/sheila.jpg
   status: alumni
-  current_position: Specialist - Neurosurgery Dept., München Klink
+  current_position: Specialist - Neurosurgery Dept., München Klinik
+  current_position_de: Fachärztin – Neurochirurgie, München Klinik
   url: https://www.muenchen-klinik.de/krankenhaus/bogenhausen/nervensystem-gehirn/neurochirurgie-wirbelsaeule-gehirn/neurochirurgen-spezialist-ruecken-nerven-gehirn/
-  
+
 - name: Bernd Rädle
   role: Alumnus (Technician - LMU)
-  email: 
+  role_de: Ehemaliger Technischer Assistent (LMU München)
+  email:
   img: placeholder.jpg
   status: alumni
-  current_position: 
+  current_position:
   url:
