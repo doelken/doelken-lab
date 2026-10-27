@@ -6,7 +6,7 @@ engine: knitr
 listing:
   - id: latest-news
     type: table
-    contents: ../news
+    contents: /news
     max-items: 5
     sort: "date desc"
     fields: [date, title, categories]
