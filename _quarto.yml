@@ -36,10 +36,7 @@ website:
 format:
   html:
     include-in-header: head.html
-    format:
-      html:
-        include-in-header: head.html
-        include-after-body: lang-switch.html
+    include-after-body: lang-switch.html
     email-obfuscation: javascript
     theme:
       light: spacelab
