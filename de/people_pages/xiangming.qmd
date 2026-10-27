@@ -1,0 +1,22 @@
+---
+title: "Xiangming Han, MD, MSc"
+image: "../../img/people/xiangming2.jpg"
+about:
+  template: solana
+  links:
+    - icon: envelope
+      text: E-Mail
+      href: mailto:Han.Xiangming@mh-hannover.de
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=gIS9W5kAAAAJ&hl=en
+    - icon: info-circle # ORCID doesn't have a native icon in many sets, this works well
+      text: ORCID
+      href: https://orcid.org/0000-0002-2308-8143
+---
+
+Mein Weg von der klinischen Medizin an der Central South University und der neurochirurgischen Ausbildung in Peking hin zur virologischen Forschung entsprang dem Wunsch, Krankheiten auf ihrer grundlegendsten Ebene zu verstehen und zu beeinflussen. Im Rahmen meines Masterstudiums verfolgte ich dieses Ziel, indem ich onkolytische Herpes-simplex-Viren (oHSV) gentechnisch veränderte, um ihre Wirksamkeit gegen Krebs und ihre Sicherheit zu verbessern. Die deutliche Verbesserung des Gesamtüberlebens von Patientinnen und Patienten nach einer oHSV-Behandlung im klinischen Umfeld mitzuerleben, hat mein Interesse an den komplexen Wechselwirkungen zwischen DNA-Viren und ihren Wirten nachhaltig gefestigt. Ich freue mich sehr, diesen Weg im Rahmen meiner Promotion in der Arbeitsgruppe von Prof. Lars Dölken an der Medizinischen Hochschule Hannover fortzusetzen. Dort untersuche ich die ausgefeilten Mechanismen, mit denen das humane Cytomegalovirus (HCMV) seine Genexpression reguliert, und deren tiefgreifende Auswirkungen auf die Funktion der Wirtszelle.
+
+Ausgleich zur Laborarbeit finde ich beim strategischen Spiel – im Badminton und in Videospielen – sowie beim Bergsteigen und Wandern in der Natur.
+
+[← Zurück zum Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}

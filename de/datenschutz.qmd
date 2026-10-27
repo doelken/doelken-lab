@@ -1,0 +1,15 @@
+---
+title: "Datenschutzerklärung"
+---
+
+### 1. Allgemeine Hinweise
+Die Betreiber dieser Website nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften (DSGVO).
+
+### 2. Datenerfassung
+Beim Besuch dieser Website werden automatisch bestimmte technische Daten erfasst (z. B. IP-Adresse, Browsertyp, Zeitpunkt des Zugriffs). Dies erfolgt durch unseren Hosting-Anbieter und ist für die technische Sicherheit der Website erforderlich.
+
+### 3. Google Web Fonts
+Diese Website nutzt zur einheitlichen Darstellung von Schriftarten sogenannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in seinen Cache, um Texte und Schriftarten korrekt anzuzeigen. Zu diesem Zweck stellt Ihr Browser eine direkte Verbindung zu den Servern von Google her.
+
+### 4. Ihre Rechte
+Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Außerdem haben Sie das Recht, die Berichtigung oder Löschung dieser Daten zu verlangen.

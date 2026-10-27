@@ -1,0 +1,45 @@
+---
+title: "Willkommen beim Dölken Lab an der MHH"
+toc: false
+page-layout: full
+engine: knitr
+listing:
+  - id: latest-news
+    type: table
+    contents: ../news
+    max-items: 5
+    sort: "date desc"
+    fields: [date, title, categories]
+    date-format: full
+---
+
+::::::: {.grid}
+:::: {.g-col-12 .g-col-md-8}
+::: justified
+## Systembiologie und RNA-Biologie von Herpesvirus-Infektionen
+
+Das Dölken Lab unter der Leitung von **Prof. Dr. Lars Dölken** an der Medizinischen Hochschule Hannover (MHH) erforscht die komplexe Koevolution von Herpesviren und ihren Wirten. Diese großen DNA-Viren sind bedeutende humanpathogene Erreger – sie verursachen alles von gewöhnlichen Lippenbläschen bis hin zu Krebs. Zugleich sind sie wirkungsvolle Werkzeuge, um grundlegende Prinzipien der Zellbiologie und Immunologie aufzudecken.
+
+### Mehr als die Spitze des Eisbergs
+
+Da Herpesviren in komplexe zelluläre Signalnetzwerke eingreifen, verfolgen wir einen systembiologischen Ansatz, um das gesamte Spektrum und die Komplexität der Virus-Wirt-Interaktionen zu erfassen. Unsere Forschung reicht von der Einzelzelle bis zum Gesamtorganismus und stützt sich auf drei Schwerpunkte:
+
+-   **Manipulation der Transkriptionsmaschinerie des Wirts:** Mit innovativem 4sU-Tagging (metabolische Markierung) erfassen wir Veränderungen von RNA-Synthese, -Prozessierung und -Abbau in Echtzeit – in Zellpopulationen ebenso wie auf Einzelzellebene. So untersuchen wir, wie Viren wie HSV-1 zelluläre Prozesse wie die Transkriptionstermination stören, um der Wirtsabwehr zu entgehen.
+
+-   **Funktionelle Reannotation viraler Genome:** Durch die Kombination von RNA-seq und Ribosome Profiling (Ribo-seq) haben wir entdeckt, dass Herpesvirus-Genome weitaus komplexer sind als bisher angenommen. Derzeit reannotieren wir diese Genome, um Hunderte neuer Transkripte und kleiner offener Leserahmen (sORFs) zu erfassen, die die Anpassung des Virus regulieren.
+
+-   **Einzelzelldynamik (scSLAM-seq):** Um die Grenzen der herkömmlichen Einzelzellsequenzierung zu überwinden, haben wir scSLAM-seq entwickelt. Durch die Kombination von metabolischer Markierung und chemischer Konversion können wir innerhalb einer einzelnen Zelle zwischen „neuer“ und „alter“ RNA unterscheiden – für Tausende Gene in Tausenden einzelner Zellen. Diese hochaufgelöste Sicht wird es uns ermöglichen, stochastische Virus-Wirt-Interaktionen während Latenz, Reaktivierung und produktiver Infektion zu entschlüsseln.
+:::
+::::
+
+::: {.g-col-12 .g-col-md-4}
+![In HSV-1-infizierten Zellen interagiert ICP27 mit CPSF und induziert die Bildung eines aberranten 3′-Prozessierungskomplexes. An viralen PAS sowie an Wirts-PAS mit GC-reichen stromaufwärts gelegenen Sequenzen (UPS) bindet ICP27 an diese UPS-Sequenzen und fördert die Rekrutierung von CPSF, wodurch die 3′-Prozessierung der mRNA aktiviert wird. Der Übergang von ICP27 zwischen dem CPSF-gebundenen und dem UPS-RNA-gebundenen Zustand ist durch eine gestrichelte Linie dargestellt. Aus Wang *et al.*, Nat Comm, 2020](../img/41467_2019_14109_Fig7_HTML.png)
+:::
+:::::::
+
+## Aktuelles
+
+::: {.news-home}
+::: {#latest-news}
+:::
+:::

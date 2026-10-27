@@ -1,0 +1,24 @@
+---
+title: "Harshita Gautam, MSc"
+page-layout: full
+image: "../../img/people/harshita.jpg"
+about:
+  template: solana
+  links:
+    - icon: envelope
+      text: E-Mail
+      href: mailto:Harshita.Gautam@stud.mh-hannover.de
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/harshita-gautam-889a692b0/
+---
+
+Mein Interesse an den molekularen Grundlagen von Krankheiten entwickelte sich während meines Zoologiestudiums an der University of Delhi und vertiefte sich während meines Masterstudiums der Biochemie an der University of Hyderabad. Im Rahmen meiner Masterarbeit untersuchte ich das MPN-Domänen-haltige Protein MPND mit Schwerpunkt auf seiner Deubiquitinase-Aktivität. Diese Erfahrung weckte mein Interesse daran, wie Proteine funktionieren und wie ihre Aktivitäten zelluläre Prozesse beeinflussen.
+
+Als ich diesen Fragen weiter nachging, interessierte ich mich zunehmend dafür, wie Proteine zur Entstehung von Krankheiten beitragen, insbesondere bei Virusinfektionen. Deshalb wechselte ich als Project Associate an das Molecular Pathogenesis Laboratory der University of Hyderabad, wo ich Virus-Wirt-Interaktionen während der HIV-1-Infektion untersuchte. Meine Arbeit konzentrierte sich auf die nicht-kanonischen antiviralen Funktionen karyophiler Proteine sowie auf Interaktionen zwischen dem HIV-1-Kapsid und Mitochondrien.
+
+Nun freue ich mich darauf, diesen Fragen im Kontext des Herpes-simplex-Virus Typ 1 (HSV-1) nachzugehen, mit Fokus auf die virale Deubiquitinase im N-Terminus von pUL36. In meiner Forschung untersuche ich, wie dieses virale Protein die Ubiquitin-Signalgebung des Wirts und die DNA-Schadensantwort während der Infektion umgestaltet. Übergeordnetes Ziel ist es zu verstehen, wie diese Veränderungen DNA-Reparatur und virale Replikation beeinflussen.
+
+Außerhalb des Labors reise ich gerne in die Berge, wandere, lese, tanze und mache lange Spaziergänge in Parks oder an Seen. Zum Entspannen spiele ich außerdem gerne Onlinespiele mit Freunden.
+
+[← Zurück zum Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}

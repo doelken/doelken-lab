@@ -1,0 +1,31 @@
+---
+title: "Santiago Alvarez-Cardenas, MSc"
+page-layout: full
+image: "../../img/people/santiago2.jpg"
+about:
+  template: solana
+  links:
+    - icon: envelope
+      text: E-Mail
+      href: mailto:AlvarezCardenas.Santiago@mh-hannover.de
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=zx5SI18AAAAJ&hl=en
+    - icon: info-circle # ORCID doesn't have a native icon in many sets, this works well
+      text: ORCID
+      href: https://orcid.org/0000-0002-0456-7712
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/santiagoalcar/
+    - icon: github
+      text: GitHub
+      href: https://github.com/santiagoalcar
+---
+
+Als Wissenschaftler, der sich leidenschaftlich für die Interaktionen zwischen Krankheitserregern und ihren Wirten auf molekularer Ebene interessiert, habe ich ein besonderes Interesse an der virusinduzierten Manipulation der Genregulation entwickelt. Während meines Masterstudiums der Biomedizin in Straßburg, Luxemburg und Mainz beschäftigte ich mich mit der Darm-Leber-Achse, Immunsignalwegen und transkriptionellen Antworten bei Fibrose und sammelte Erfahrung in RNA-Biologie, Multi-Omics-Datenanalyse und Entzündungsforschung.
+
+In der Arbeitsgruppe von Lars kann ich diese Faszination auf die Welt der Herpesviren übertragen, die bemerkenswerte Strategien entwickelt haben, um lebenslang im menschlichen Körper zu überdauern. In meiner Doktorarbeit untersuche ich die pervasive Transkription bei Infektionen mit dem humanen Cytomegalovirus. Dabei gehe ich der Frage nach, wie virale Genome die RNA-Polymerase II des Wirts rekrutieren und nutzen und wie virale Faktoren die Transkription von unproduktiven auf produktive Programme umschalten. Durch die Kombination virologischer und transkriptomischer Ansätze möchte ich zu einem tieferen Verständnis beitragen, wie HCMV Infektionen auslöst und der Immunüberwachung entgeht.
+
+Außerhalb des Labors reise ich gerne, probiere neues Essen aus, wandere in der Natur, schaue Formel-1-Rennen und spiele Tennis. Außerdem interessiere ich mich sehr für Weltgeschichte und andere Kulturen.
+
+[← Zurück zum Team](../our_team.qmd#current-members){.btn .btn-orange .btn-sm role="button"}

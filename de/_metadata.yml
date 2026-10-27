@@ -1,0 +1,3 @@
+# Applies to every page inside de/: German UI strings (listing labels,
+# dates, "Inhaltsverzeichnis", search placeholder, etc.) and lang="de" in the HTML.
+lang: de
