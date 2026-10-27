@@ -424,33 +424,45 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  // DE/EN toggle at the end of the navbar
+  // DE/EN toggle next to the dark-mode and reader-view buttons
 
-  var target = isDe
+  var link = document.createElement("a");
 
-    ? (path.replace(/^\/de/, "") || "/")
+  link.href = target;
 
-    : (translated.test(path) ? "/de" + path : "/de/");
+  link.className = "quarto-navigation-tool px-1 lang-switch";
+
+  link.setAttribute("hreflang", isDe ? "en" : "de");
+
+  link.setAttribute("title", isDe ? "English version" : "Deutsche Version");
+
+  link.textContent = isDe ? "EN" : "DE";
 
 
 
-  var nav = document.querySelector("#quarto-header .navbar-nav");
+  var tools = document.querySelector("#quarto-header .quarto-navbar-tools");
 
-  if (nav) {
+  if (tools) {
 
-    var li = document.createElement("li");
+    tools.prepend(link);
 
-    li.className = "nav-item";
+  } else {
 
-    li.innerHTML =
+    var nav = document.querySelector("#quarto-header .navbar-nav");
 
-      '<a class="nav-link lang-switch" href="' + target + '" hreflang="' + (isDe ? "en" : "de") + '">' +
+    if (nav) {
 
-      '<i class="bi bi-translate" role="img"></i> ' +
+      var li = document.createElement("li");
 
-      '<span class="menu-text">' + (isDe ? "EN" : "DE") + '</span></a>';
+      li.className = "nav-item";
 
-    nav.appendChild(li);
+      link.className = "nav-link lang-switch";
+
+      li.appendChild(link);
+
+      nav.appendChild(li);
+
+    }
 
   }
 
