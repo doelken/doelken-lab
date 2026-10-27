@@ -36,20 +36,26 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // DE/EN toggle at the end of the navbar
-  var target = isDe
-    ? (path.replace(/^\/de/, "") || "/")
-    : (translated.test(path) ? "/de" + path : "/de/");
+  // DE/EN toggle next to the dark-mode and reader-view buttons
+  var link = document.createElement("a");
+  link.href = target;
+  link.className = "quarto-navigation-tool px-1 lang-switch";
+  link.setAttribute("hreflang", isDe ? "en" : "de");
+  link.setAttribute("title", isDe ? "English version" : "Deutsche Version");
+  link.textContent = isDe ? "EN" : "DE";
 
-  var nav = document.querySelector("#quarto-header .navbar-nav");
-  if (nav) {
-    var li = document.createElement("li");
-    li.className = "nav-item";
-    li.innerHTML =
-      '<a class="nav-link lang-switch" href="' + target + '" hreflang="' + (isDe ? "en" : "de") + '">' +
-      '<i class="bi bi-translate" role="img"></i> ' +
-      '<span class="menu-text">' + (isDe ? "EN" : "DE") + '</span></a>';
-    nav.appendChild(li);
+  var tools = document.querySelector("#quarto-header .quarto-navbar-tools");
+  if (tools) {
+    tools.prepend(link);
+  } else {
+    var nav = document.querySelector("#quarto-header .navbar-nav");
+    if (nav) {
+      var li = document.createElement("li");
+      li.className = "nav-item";
+      link.className = "nav-link lang-switch";
+      li.appendChild(link);
+      nav.appendChild(li);
+    }
   }
 });
 </script>

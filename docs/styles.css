@@ -316,3 +316,17 @@ a:not(.btn):not(.about-link):not(.team-email-btn):not(.team-name-link):not(.nav-
     text-align: left;
   }
 }
+
+/* language switch button next to the dark-mode switch*/
+.lang-switch {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  align-self: center;
+}
+.lang-switch:hover {
+  text-decoration: none;
+  opacity: 0.75;
+}
+
